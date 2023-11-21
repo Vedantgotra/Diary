@@ -1,0 +1,2104 @@
+Date: 7 jun 2023
+Wednesday
+12:58 PM
+
+The Fixed Auctions Are :
+* Base price issue
+* Select product button, select product issue (need to ask the similarities beetween these issues)
+* Auction Duration
+* updated or edit auction product(already fixed)
+* free plan (remaining)
+* Auction time
+* Auction product(need to ask)
+* Auction List Improvement
+* edit auction end time(need to ask)
+
+the issues are fixed which is as :
+
+* base price can not be greater than reserve price
+* select products button in batch auction is fixed as there will be two variable in the cache productIdArray and productPaginationArray
+  - these array do the working of storing data in localstorage of select button history when we selcect the product and change the page it will store the product into the pagination array and at the time of save it will copy the data from pagination to product array in the local storage.
+* auction from time and end time should not be less than current time check 
+* auction end time should not be greater than start time
+* batch action -> batch auction
+* no records found to list of auction and product manage.twig 
+* there are some things regarding the end auction end time which is the to date can never be less than from date and also from date can never be less than current date also the event is set on changing the value of from date then it will change the value of to date.
+
+
+
+
+
+
+
+
+
+
+
+
+Date: 8 jun 2023
+Thursday
+12:41 PM
+
+NOTE: When you see a thing you dont know just see the code.
+
+Delve into the Pam Plans just see the things related to pam.
+
+** Plan related PAM **
+- Subscription Controller path: "http://127.0.0.1:8000/en/bigcommerce/app/auctionapp/mublaafxvy/subscription/"
+1 the index controller is used to see the current subscription and subscription plan details it also shows the subscription for subapps
+* it shows the current subscription details and the make the button dynamic to "resubscribe","cancelsubscription","choose plans"
+* if current subscription status is 'X' it shows resubscribe else shows the cancel subscription also if isResubscribedAfterCancel == 1 it    show choose plan and do not resubscribe if already cancel only one time it resubscibe the plan else it shows no subscription
+
+2 the plan upgrade controller is used to upgrade the plan 
+
+
+Date: 9 jun 2023
+Friday
+10:16 PM
+
+TODO:  
+* Fix all the git issues and assign to Analyst.
+* Learn git all the things.
+* all the things must be check from my side.
+
+
+
+* fixed the issues as : 
+ - 19 "Base Price Issue"
+       status: the issue is fixed, there will be "error flash message" shown for this issue.
+ - 20 "Select product button"
+       status: this is issue fixed, the list is able to select ten product at a time.
+ - 21 "Auction duration"
+       status: this issue is fixed now, it display the error message.
+ - 23 "select product issue"
+       status: this issue is fixed now, the list is able to select the product from diffrent pages.
+ - 26 "updated or edit auction product"
+       status: this is already fixed by some developer.
+ - 29 "Free plan"
+       status: i am not able to understand this issue also my observation regarading this issue there is some flow changes in the code,so i think to re-verfiy or if possible schedule a meeting to elaborate on this issue.
+ - 31 "Auction time"
+       status: this issue is fixed now, and display the error message
+ - 32 "Auction product"
+       status: this is issue has two flow changes :- 
+       Observation flow: the select product list in the batch auction does not show the Auction product which currently "running".
+       Flow Improvement: the button name is changed from batch action to batch auction (batch action -> batch auction)
+ - 33 "Auction list improvement"
+       status: this issue is fixed now, if no items are found in auction and product list it shows "no records found".
+ - 34 "edit auction end time"
+       status: This issue is fixed now, the previous date can be selectable.
+	
+
+
+
+
+
+
+
+
+Date: 9 jun 2023
+Friday
+10:16 PM
+
+Today explore some points related to git 
+* git vs github
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Git (global information tracker)- version control system
+
+A source tool that helps in tracking and managing codes. It was designed to assist programmers to work in coordination and tracking changes in any of the files associated with the local directory.
+
+Features: 
+* Distributed
+* Branching
+* Secure
+
+
+
+
+
+Date: 12 jun 2023
+Monday
+11:33 AM
+
+Command for creating shortcut : ln -s source path linkpath
+
+Today things to do: 
+* live the customization
+* v3 vs v2 BC
+
+4:48 pm
+
+Bigcommerce M.P. Exploration: 
+Things to be explored 
+
+Products:
+batch action
+
+Date: 13 jun 2023
+Tuesday
+11:03 AM
+
+functionality of products page:
+* page has pagination
+* page has batch action of active delete and Batch assign Seller and unnassign seller
+* product page can import/export and sync the product it can also filter the product
+* inside the product trow the product can be opened at storefront, with action and status cheange and also assign and unassign the seller. 
+	
+
+
+
+Date: 14 jun 2023
+Wednesday
+09:48 AM
+
+exploring the product controller.
+
+exploring the product add controller till 11 40
+
+basically the product add/update is on the same page so the form is created by helper and than it renders by controller
+some things are the active tabs and next page is exploring 
+
+exploring the product update controller till 1 pm 
+
+need to work on the customization of seller name as brand name as more things are found
+
+exploring the order controller.. till 4 10pm
+
+Do explore as what you want first explore the total functionality of mp
+
+
+
+
+
+Date: 15 jun 2023
+Thursday
+10:32 AM
+
+Need to explore the blog.
+Need For Speed.
+explored the seller plan controller
+exploring the accounting controller
+
+
+*** Need to see the KNP paginator.**** 
+
+
+Re-Working on git issues bigcommerce Auction 
+
+-> select product button(done)
+-> updated or edit auction product(done)
+-> Auction time (done)
+-> Auction product (done)
+-> Auction list improvement (done)
+
+
+
+
+Date: 16 jun 2023
+Friday
+08:32 AM
+
+We have seen bid history stands for old bids which on previous auction on the products
+
+
+fixed the issues all 
+
+Exploring the MP as : 
+
+
+
+
+
+
+Sir, 
+
+I have fixed the git issues of our bigcommerce product auction application which was re-assigned to me.
+
+The respective code is pushed to the staging server, and ready for testing.
+
+Please schedule testing for the same.
+
+Please let me know if you need anything else.
+
+thanks 
+
+
+
+Sir,
+Worked on the git issues:
+As discussed the issue (20) select product button is fixed now
+
+
+hwmb70e9k69kq2gi4dtn140kiov6qmh
+20452468cb15ddd1c19906b90950a544f7d8c71a7afda8b514819563e4dd1f84
+
+
+
+Date: 20 jun 2023
+Tuesday
+09:53 AM
+
+
+Exploring the Bc MP 
+
+Some main things in bigcommerce
+
+
+need to undetstand some things such as
+
+* accounting
+* seller plan commission
+
+need to explore 
+
+config/old_sound file
+endpoint webhook
+wehook service
+consumer webhook
+
+
+Date: 21 jun 2023
+Wednesday
+03:22 PM
+
+
+webhook created of store
+
+{
+  "data": {
+    "id": 26601333,
+    "client_id": "m16nmeorittnqifl9izcj00xybrj4pa",
+    "store_hash": "3vn5w7242u",
+    "scope": "store/order/*",
+    "destination": "https://webhook.site/57e2b3b8-99c6-451a-9fa0-0634bb9feb5f",
+    "headers": {
+      "custom": "string"
+    },
+    "is_active": true,
+    "created_at": 1687325322,
+    "updated_at": 1687325322,
+    "events_history_enabled": false
+  },
+  "meta": {}
+}
+
+
+need to learn the rabbit mq
+
+
+webhook hit, webhook enqueue and dequeue of rabbit mq
+yaml file in the config folder contains the connections
+
+see the order creation and product creation
+webhook service and controllers of webhooks.
+
+
+
+Date: 26 jun 2023
+Monday	
+10:19 PM
+
+
+Exploring how queues are making
+
+rabbitmq bundle
+https://github.com/videlalvaro/RabbitMqBundle
+
+
+Created queue and a connection and a exchange
+
+and send the message with the rabbit mq protocol
+
+need to do the multiple connection with a queue
+
+need to explore
+ 
+security.yaml and some cofiguration in pam
+
+
+
+Date: 27 jun 2023
+Tuesday	
+12:15 PM
+
+
+Hello Tony,
+
+need to see the following things:(
+
+un:( blog  done
+dos: endpoint
+tres:
+quos: 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+to establish a connection over ssh 
+we enter the host name and host and username then we will access the remote server
+---------------------------------------------********************************************---------------------------------------------------
+
+
+explore some points in ali express as :
+
+how many endpoints are calling when a product is import
+
+check out these endpoints to explore correctly
+
+
+Date: 29 jun 2023
+Thursday	
+12:15 PM
+
+
+As discussed with @vijaykumar.qa208 sir, the start button at the auction view page should appear in both cases of auction start automatically and manually within the time period.<br>
+Fixed this issue, now start button is appearing after stopping an auction
+
+
+
+
+
+
+Date: 3 jul 2023
+Monday	
+11:41 AM
+
+
+link to record product
+
+https://webkul.chatwhizz.com/share/view-recording/64a265967a12b0072e840560
+
+
+
+
+Date: 5 jul 2023
+Wednesday	
+10:53 AM
+
+* POS script.js
+* installing marketing cloud in free time
+* add products to cart
+* some competive programming
+
+
+
+*********************************
+issues regarding auction which need to be fixed
+
+#20 
+*******************************************************************
+
+Aug 22 2023
+Tuesday
+
+finding a way to implement mobile the wix-auction: 
+found a way to get know if it is mobile or desktop: #wix-viewer-model -> formfactor
+
+fixed the responsiveness of page loader
+fixed the responsiveness of auction message
+fixed the responsiveness of timer. 
+
+public js has changes. of wix js named as: event.js
+
+
+
+Sept 5 2023
+Tuesday
+
+line no 148 : 
+        // if (productList.length == 0 ) {
+        //     document.querySelectorAll("[data-hook=product-item-quick-view-button]").forEach(e => e.style.display = '');
+        //     document.querySelectorAll("[data-hook=product-item-add-to-cart-button]").forEach(e => e.style.display = '');
+        // }
+
+line no: 25
+                    // document.querySelectorAll("[data-hook=product-item-quick-view-button]").forEach(e => e.style.display = 'none');
+                    // document.querySelectorAll("[data-hook=product-item-add-to-cart-button]").forEach(e => e.style.display = 'none');
+
+
+problems related to wix auctions
+
+flow problem. it is if product name is equal to db product name then hide the details . otherwise do nothing. 
+
+ribbon replication the api again and again fixed this is due to div adding again and again which causes observer call the callback again and again. 
+
+
+
+sept 14 
+Mail to bidder things.   
+
+
+                // send mail to bidder. 
+                $data['email'] = $bidData['email'];
+                $auctionEvent = new AuctionsEvent($companyApplication, $data, $request);
+                $this->dispatcher->dispatch(
+                    $auctionEvent,
+                    AuctionsEvent::AUCTIONS_BIDDER_BID_CREATE
+                );   
+
+
+eve
+    const AUCTIONS_BIDDER_BID_CREATE = 'auctions.bidder.bid.create';
+
+subs
+            AuctionsEvent::AUCTIONS_BIDDER_BID_CREATE => 'auctionsBidderBidCreate',
+
+
+
+    public function auctionsBidderBidCreate(AuctionsEvent $event)
+    {
+        $companyApplication = $event->getCompanyApplication();
+        if ($companyApplication->getApplication()->getCode() != 'auctions') {
+            return;
+        }
+        $data = $event->getData();
+        if (empty($data)) {
+            return;
+        }
+        $company = $companyApplication->getCompany();
+
+        $extra = [
+            'company' => $company,
+            'application' => $companyApplication->getApplication(),
+            'data' => $data,
+        ];
+
+        $email_helper = $this->getHelper('email');
+        $email_helper->send_mail(
+            $data['email'],
+            [],
+            'auctions/bidder_bid_create',
+            'application',
+            $extra,
+        );
+    }
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+            file_put_contents('/home/bigcommerce/shared/media/bigcommerce/temp_log_files/applicationOnNull.txt',json_encode($companyApplication, JSON_PRETTY_PRINT).PHP_EOL,FILE_APPEND);   divosor
+
+
+
+            if(is_null($companyApplication)) {
+                if(!is_null($company)) {
+                    file_put_contents('/home/bigcommerce/shared/media/bigcommerce/temp_log_files/applicationOnNull.txt',$company->getId().PHP_EOL,FILE_APPEND); 
+                } else {
+                    file_put_contents('/home/bigcommerce/shared/media/bigcommerce/temp_log_files/applicationOnNull.txt',$instanceId.PHP_EOL,FILE_APPEND); 
+                }
+            }
+
+
+
+eshopsyncpramod@gmail.com
+
+
+
+instance ids :
+aff885e4-4217-47c3-90a1-7575ffa06b22
+
+
+
+
+
+
+
+check:  
+if(is_null($companyApplication)) {
+                if(!is_null($company)) {
+                    file_put_contents('/home/bigcommerce/shared/media/bigcommerce/temp_log_files/applicationOnNull.txt',$company->getId().PHP_EOL,FILE_APPEND);  
+                } else {
+                    file_put_contents('/home/bigcommerce/shared/media/bigcommerce/temp_log_files/applicationOnNull.txt',$instanceId.PHP_EOL,FILE_APPEND);  
+                    file_put_contents('/home/bigcommerce/shared/media/bigcommerce/temp_log_files/applicationOnNull.txt',json_encode($webhook_data, JSON_PRETTY_PRINT).PHP_EOL,FILE_APPEND);  
+
+                }
+            } 
+
+
+--------------------------------------------------------------
+
+
+
+Sep 18 2023 
+
+@all Please be available from 5:45 pm to 7:00 pm for the presentation on the link and network layers.
+
+-----------------------------------------------------------------------------------------------------
+Sep 19 2023 
+Remote no: 
+ELRAH-5IF190549
+
+
+
+
+Dear all, please let me know the best suitable time for the presentation on the link and network layers in networking and an introduction to Velo certifications
+
+
+
+Implementing a settings based on plan feature 
+if plan feature is exist then setting will not save. of these field. 
+
+code showability
+
+*  if plan feature me nhi hai to setting disabled + off *** 
+*  setting not save is plan feature me nhi hai ***
+*  ek chiz agar bid increment setting on hai to value required rhe gi. ***	
+* tooltip on disabled toogles ***
+code functionality
+
+
+* add the regex check for bid increment at backend. ****
+
+-------------------------------------------------------------------------
+
+20 sep 
+
+to do in the functionality. 
+
+*add tooltip for field.
+*discuss the bid increment functionality with rishabh sir. 
+
+Daily problem which occurs: 
+css not thinking. 
+what is the connection of localhost with internent. . . . . 
+css pseudo selelctor. 
+make a tooltip with css. 
+Start designing the webpages. also need to study the proper validation guidlines. 
+
+
+
+
+
+
+
+https://wix.webkul.com/en/wix/oauth/load/wixmp?instance=6NgGV0ZE9tdQM9yRWKsy8vKEUS_BJmiLrTI0QhhAGjE.eyJpbnN0YW5jZUlkIjoiOTEwOTJkMDEtYTRiNy00NjlkLWJiOTUtMjRjZDgyYTZkMDM3IiwiYXBwRGVmSWQiOiI5MDBkNDNiNS1kNzM2LTQ1MTMtOTQ4Yy0zOTFlOTE5ZGI3ODkiLCJzaWduRGF0ZSI6IjIwMjMtMDktMjBUMDc6MjA6MTguMDYyWiIsInVpZCI6ImQ3MzZmYTU3LWJhZGEtNGFiMC1iZDFmLWQzNDZiODY4ODMyOCIsInBlcm1pc3Npb25zIjoiT1dORVIiLCJkZW1vTW9kZSI6ZmFsc2UsInNpdGVPd25lcklkIjoiMDhhYjVhNTMtZTRmYy00ZDk2LWJjYTMtZDMyNjg5NWMxZjNkIiwic2l0ZU1lbWJlcklkIjoiZDczNmZhNTctYmFkYS00YWIwLWJkMWYtZDM0NmI4Njg4MzI4IiwiZXhwaXJhdGlvbkRhdGUiOiIyMDIzLTA5LTIwVDExOjIwOjE4LjA2MloiLCJsb2dpbkFjY291bnRJZCI6ImYyNzQ3NDg1LTZmZDAtNDFjOC1iMTEwLWY3NzEwZDllZjVkYSIsImxwYWkiOm51bGwsImFvciI6ZmFsc2V9
+
+
+            if($company->getStoreHash() == "EaziShopa4b7") {
+                file_put_contents("/home/bigcommerce/www/public/media/bigcommerce/temp_log_files/appload.txt","hi");
+            }
+
+
+
+
+
+
+
+improvements :
+use bootstrap tooltips for all info icons on settings page***
+try with some more attractive contents
+limit the bid increment value to 5 digits max for now ***
+enhance application-wise plan feature values ***
+
+Required fixes :
+fix translation issue in plan settings *** 
+dynamic statement add in the mail and view files ***
+fix translation issue on the subscription page ***
+minimum bid flash message not appeared while bid increment setting is off ***
+Grammar improvements in outbid mail, flash message ***
+ 
+
+
+
+
+
+
+ [OK] Root Admin Created /d username: vedantgotra6474 /d email: vedantgotra@gmail.com /d password: ouXh98TbAE           
+
+
+
+
+
+
+Client Id : daixxsdxkhj39ymjqmw1d1dx
+Client Secret : 2cbWMlTw3n0saDjJB90JyEv5
+Account Id : 110005218
+Sub Domain : https://mczg3wrqf7498np4s41wp9pvd-py.soap.marketingcloudapis.com/ETFramework.wsdl
+ 
+link : https://mc.exacttarget.com/cloud
+ 
+Login :
+username : wkrishabh
+pass : *****
+
+
+
+
+
+
+
+bg color : backgroud tile #eceff3
+
+tile bg #ffffff
+
+
+app-title element {
+	margin-top: 0px;
+	box -shadow: 0
+}
+
+
+items_per_page    background-color: #fff;
+  width: 125px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+888888888888888888888888888888888888888888888888888
+css regarding the toggle.  .  . 
+
+
+
+
+
+.toggle-btn {
+  position: relative;
+  height: 74px;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+input[type="checkbox"] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+#_3rd-toggle-btn span {
+    display: block;
+    width: 145px;
+    height: 38px;
+    background-color: #c7c7c7;
+    border-radius: 20px;
+    transition: 0.5s ease background-color;
+  }
+  
+  #_3rd-toggle-btn span:before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 2px 6px 25px #d7d7d7;
+    transform: translate(0px, 0px);
+    transition: 0.6s ease transform, 0.6s box-shadow;
+  }
+  
+  #_3rd-toggle-btn span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    left: 35px;
+    width: 0px;
+    height: 24px;
+    margin-top: -36px;
+    margin-left: -6px;
+    border: 6px solid #000;
+    border-radius: 20px;
+    transform: translate(0px, 0px);
+    transition: 0.4s ease width, 0.4s ease border-radius, 0.62s ease transform;
+  }
+  
+  #_3rd-toggle-btn input[type="checkbox"]:checked + span:before {
+    box-shadow: 7px 6px 25px #e6e6e6;
+    transform: translate(75px, 0px);
+  }
+  
+  #_3rd-toggle-btn input[type="checkbox"]:checked + span:after {
+    width: 24px;
+    border-radius: 50%;
+    transform: translate(64px, 0px);
+  }
+  
+  #_3rd-toggle-btn input[type="checkbox"]:checked + span {
+    background-color: #000;
+  }
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------
+
+26 sept 23
+
+changed name ftp and merged to master chatgpt bigcommerce. 
+
+
+
+
+The only scope needed is for app creation/submission. I will confirm with @rishabh sir if there are any other mandatory scopes required, and I will update here by the end of today
+
+
+As per my knowledge Products - "Modify" is the only scope needed while creating and pulishing this app. I will confirm with @rishabh sir once if there are any other mandatory needed scope other than this and will update here till today EOD.
+
+
+
+
+As per my knowledge, the only scope needed for creating and publishing this app is Products - "Modify". I will confirm with @rishabh sir if there are any other mandatory scopes required, and will update here by the end of today.
+
+
+
+
+urls: 
+
+Auth URL:  https://bigcommerce.webkul.com/en/bigcommerce/authentication/auth/bcchatgpt
+
+Load URL:  https://bigcommerce.webkul.com/en/bigcommerce/authentication/load/bcchatgpt
+
+Uninstall URL:  https://bigcommerce.webkul.com/en/bigcommerce/authentication/uninstall/bcchatgpt
+
+Remove User URL: https://bigcommerce.webkul.com/en/bigcommerce/authentication/remove-user/bcchatgpt
+
+
+
+
+
+As per my knowledge, the only required scope for creating and publishing this app is 'Products - Modify.' I will confirm with @Rishabh Singh - Salesforce / SAAS Integration if there are any other mandatory scopes needed and will provide an update by the end of today.
+
+The URLs for this application are:
+
+Auth URL: https://bigcommerce.webkul.com/en/bigcommerce/authentication/auth/bcchatgpt
+Load URL: https://bigcommerce.webkul.com/en/bigcommerce/authentication/load/bcchatgpt
+Uninstall URL: https://bigcommerce.webkul.com/en/bigcommerce/authentication/uninstall/bcchatgpt
+Remove User URL: https://bigcommerce.webkul.com/en/bigcommerce/authentication/remove-user/bcchatgpt
+Additionally, as discussed, I have changed the name of this application to 'ChatGPT-SEO And Product Content,' matching the name of the Wix ChatGPT application.
+
+
+
+
+
+
+@Ajeet Singh - Salesforce / SAAS Integration 
+Sir, As per my knowledge, the only scope needed for creating and publishing this app is Products - "Modify". I will confirm with @Rishabh Singh - Salesforce / SAAS Integration  if there are any other mandatory scopes required, and will update here by the end of today.
+
+The URLs for this application are:
+Auth URL: 
+https://bigcommerce.webkul.com/en/bigcommerce/authentication/auth/bcchatgpt
+Load URL: 
+https://bigcommerce.webkul.com/en/bigcommerce/authentication/load/bcchatgpt
+Uninstall URL: 
+https://bigcommerce.webkul.com/en/bigcommerce/authentication/uninstall/bcchatgpt
+Remove User URL: 
+https://bigcommerce.webkul.com/en/bigcommerce/authentication/remove-user/bcchatgpt
+
+Additionally, as discussed, I have changed the name of this application to 'ChatGPT-SEO And Product Content,' matching it with the name of the Wix ChatGPT application.
+and also read the guidelines for publishing a BigCommerce Application.
+ thanks. 
+
+
+
+
+***********************************************************************************************
+Sep 27 10:46 AM										  	     *
+***********************************************************************************************
+* Yesterday: 
+Pushed the bigcommerce auction to staging and chatgpt to live and schedule their git issues
+Along with this the git issues if wix auction are testing deadline 26 * vijay sir task. 
+
+TODO: 
+* Discussion related to the wix auction design. - done
+* Currently work on task on wix auction layout. - working
+
+Things to be changed in wix auction: 
+Dropdown should be same size of button no overlapping *** also need to improve according to the media query. morning tommorow. 
+filter imporovment page slide animation. 
+sync dropdown also fix. 
+total record with product 40 
+Icon design improve auction page. 
+General settings: 
+email input style change. 
+switch toogle styling. 
+info icon tags need to be changed. 
+dropdown inplace of radio button winning bid. 
+
+
+***********
+Last fixes.*
+*********** 
+table scrolls inplace of whole page. 
+Menu override profile and logout and support should be shift to right side of header.  
+
+https://devsnap.me/css-input-text
+https://dribbble.com/tags/breadcrumbs
+
+
+
+
+***********************************************************************************************
+please add the comment of changing the wix auction functionality twmplate field hid eon 27 sept*
+***********************************************************************************************
+
+LifeStyle: 
+The speed of improvement is now slow with respect the previous month. . . 
+
+
+Along with this Every Hour for 15 min: 
+
+* Getting started with velo
+* Network Layer. 
+
+
+
+
+<i class="fa-solid fa-pause"></i>
+
+<i class="fa fa-solid fa-circle-pause"></i>
+
+
+
+
+***********************************************************************************************
+Sep 28 09:51 AM										     *
+***********************************************************************************************
+
+Today do the following things before lunch:.
+
+Dropdown should be same size of button no overlapping *** also need to improve according to the media query. morning tommorow. 
+filter imporovment page slide animation. 
+sync dropdown also fix. 
+total record with product 40 
+Icon design improve auction page. 
+General settings: 
+email input style change. 
+switch toogle styling. 
+info icon tags need to be changed. 
+dropdown inplace of radio button winning bid. 
+
+ before 1:30pm
+
+things which are left. . . 
+
+* media query hover. 
+* media query filter and itemsperpage button. 
+* auction status. 
+
+
+
+
+List of Doubts: 
+
+* Related javascript concepts: 
+  - i need to understand what is promises(async/await) i have explored it two to three times but doesn't get the concept behind them. 
+  - i used events a lot of times in js but some concepts like event loop and the phases of event these i want to understand. 
+* Inside the networking things we do: 
+  - Virtual host. 
+  - streams and buffer. 
+  - i know that ftp works on applcation layer but how it does and the realtion beetween ssh and ftp. basically how these commands works which is i want to understand. 
+* realted to our work. 
+  - i have read the symfony but still doesn't get a picture of symfony container. 
+  - what is lazy term. 
+  - api vs services
+  - webserver vs server
+
+
+
+
+MOM 28 Sept: 
+
+Only turn on that task which we are currently doing.  
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+
+
+* Send the credentials list which you have. 
+
+
+Linear Gradients. apply on button. 
+css selector > space
+saas explore
+
+
+credentials which i have : 
+
+
+* FTP of development staging and live including alpha and webhook staging. 
+* PAM LOGIN CREDENTIALS : development staging and live. 
+* Rabbit MQ: Dev staging and live. 
+* adminer.php
+* 
+Pem file: webhook staging and bigcommerce-staging
+
+
+
+
+***********************************************************************************************
+Sep 29 10:36 AM										     *
+***********************************************************************************************
+* working 
+** testing
+*** completed
+Home needs: 
+
+* Cloth brush arjun soft
+* Ice Tray single. 
+* ..
+
+Things need to do: 
+
+ticket : transparent freedom. 
+
+Wix auction application layout: 
+pages need to improve: 
+General Settings. **
+Product view. **
+Auciton view. ** 
+auction edit. **
+bid history  **
+auction set product id spectific. 
+email configuration. **
+support.  **
+my subscription page. **
+my company **
+outbid settings when not in plan feature.  issue-> **
+total products. ** 
+input elements 30px fix. **
+product page button white ***
+filter. **
+image change thumbnail. **
+
+<div class="form-check">
+                    </div>
+
+
+
+
+***********************************************************************************************
+Oct 3 07:31 PM										     *
+***********************************************************************************************
+
+https://wix.webkul.com/en/wix/oauth/load/wixmp?instance=tvZfdlaFglSDLtHWo7MAt7GjhdT3c9nDVTD337Wll98.eyJpbnN0YW5jZUlkIjoiYTNkODA0OTMtYzBkOC00Yzc2LThkZDEtNGFlYWM3ZmMxMjAxIiwiYXBwRGVmSWQiOiI5MDBkNDNiNS1kNzM2LTQ1MTMtOTQ4Yy0zOTFlOTE5ZGI3ODkiLCJzaWduRGF0ZSI6IjIwMjMtMTAtMDNUMTA6NTY6MjYuNjE2WiIsInVpZCI6ImQ3MzZmYTU3LWJhZGEtNGFiMC1iZDFmLWQzNDZiODY4ODMyOCIsInBlcm1pc3Npb25zIjoiT1dORVIiLCJ2ZW5kb3JQcm9kdWN0SWQiOiJidXNpbmVzcyIsImRlbW9Nb2RlIjpmYWxzZSwic2l0ZU93bmVySWQiOiI0NTY5MDk0ZC01YTc4LTRlM2MtYjQwMC1mYTA1YTFmOWYxODgiLCJzaXRlTWVtYmVySWQiOiJkNzM2ZmE1Ny1iYWRhLTRhYjAtYmQxZi1kMzQ2Yjg2ODgzMjgiLCJleHBpcmF0aW9uRGF0ZSI6IjIwMjMtMTAtMDNUMTQ6NTY6MjYuNjE2WiIsImxvZ2luQWNjb3VudElkIjoiZjI3NDc0ODUtNmZkMC00MWM4LWIxMTAtZjc3MTBkOWVmNWRhIiwibHBhaSI6bnVsbCwiYW9yIjpmYWxzZX0
+
+
+
+
+
+
+
+a3d80493-c0d8-4c76-8dd1-4aeac7fc1201","appDefId":"900d43b5-d736-4513-948c-391e919db789
+
+instance id chaneged of prova to a3d80493-c0d8-4c76-8dd1-4aeac7fc1202
+
+
+Things to do >>>>
+
+Final observation: 
+
+* Make the below changes as we have discussed and present a demo in today evening : 
+* template and related code improvement in subscriptions menu **
+* transaction view page **
+* SMTP page changes **
+* My company/company details page changes **
+* Filter modal **
+* Date dropdown resopnsiveness **
+
+
+** Git.. 
+
+Learned the index file. 
+Learned the command like cherrypick, clean,reset,revert. 
+ git.. 
+
+
+75 days challange day 2. 
+
+networking. 
+
+need 2+2+2  total 6 hours addn. than regular work. 24-7-10 apart from office i can get 4.5 hours. C.C is regular. so this week git half and networking.  or other subject half half. 
+
+
+
+
+***********************************************************************************************
+Oct 4 12:12 PM										     *
+***********************************************************************************************
+
+Improvement in wix auction: 
+
+Adding theme system to the wix auction. ... ... 
+
+
+Transparent freedom 
+
+* reccurrign payment mail should not be recived by the admin it should only be sent to the seller. 
+* the mail for the upgradation and downgrade mail is diffrent 
+* also the mail for recurring payement is diffrent. 
+
+
+Goal for 4 months: 
+
+* amount to be saved in 4 months 25000 rs total 6250rs every month. 
+ 
+Movies To be watch:  * Dil se, Swades. 
+
+Today home task: 
+
+Calculate expense 15 min 
+
+get late more than then start cc here. 
+
+also need to study the networking and git concepts. 
+
+make time table at 6 pm 
+
+
+
+
+Here is the email content which should trigger the below cases:
+1) If a seller continues with the same existing plan then " Thank you for continuing with the current plan"<plan_Name> **
+2) If a seller upgrade from the current existing plan then "Thank you for upgrading your plan" <Plan_Name> **
+3) when a seller first-time purchases a plan then " Thank you for selecting plan" <Plan_Name> **
+4) When a seller cancels his plan then " You have cancelled your plan<plan_name>, we will get in touch with you soon" xx
+
+Make sure the store admin only will get an email the first time a seller purchases a plan, cancels a plan or upgrades a plan. **
+
+
+***********************************************************************************************
+Oct 5 10:55 AM										     *
+***********************************************************************************************
+
+Dad list for sat: 
+
+* Ice Tray single. 
+* 
+
+
+Today pending tasks. 
+
+* ticket transparent freedom. 
+* wix auction ui improvement.  
+
+
+Today flow: 
+
+when creating a new seller: mail of under review goes to both seller and admin. 
+
+
+
+@Vinay Durgapal 
+Sir, I have made some changes to the user interface of the Wix auction application.
+I have made numerous changes, so I can't specify the locator's name. However, here is a list of the path of the pages I've modified in the application.
+1. manage/products
+2. manage/auctions
+3. create/auction
+4. view/auction
+5. bids/auction
+6. company/profile
+7. company/profile/settings
+8. settings/email
+9. settings/general
+10. support
+11. subscription
+12. subscription/transactions
+13. subscription/transaction_view
+Additionally, I have changed the names of classes and IDs of the HTML elements on the pages. However, due to major updates, I had to change the positions of these elements.
+cc @Ajeet Singh - Salesforce / SAAS Integration @Gaurav Kala - Salesforce / Salesforce QA @Rishabh Singh - Salesforce / SAAS Integration 
+
+
+@Ajeet Singh - Salesforce / SAAS Integration @Gautam Bagchi 
+Sir, I have fixed the seller plan mail issue in BigCommerce Marketplace as follows:
+1. I have added some cases in which emails should be sent and updated the email body heading as mentioned.
+2. According to the current flow, when a seller creates an account, a plan-assigned email is sent, along with the existing emails sent to the admin and the seller. If we consider when the seller creates an account and their status changes to 'active,' a total of 4 emails are sent to the seller, including 'Profile Under Review,' 'Profile Info,' 'Plan Assigned,' and 'Status Updated.' At the same time, 2 emails will be received by the admin, including 'Profile Review' and 'Plan Assigned.'
+3. Also, when a seller or admin upgrades a seller's plan, a plan upgrade email will be sent to the seller and admin .
+4. Finally, when a seller's plan renews, a seller plan renewed email will be sent only to the seller. 
+
+I have also attached the screenshots of the mail which i had tested. 
+cc - @Rishabh Singh - Salesforce / SAAS Integration 
+
+
+
+
+
+Hello,
+This is to inform you that Plan 1.5 GB has been assigned to the seller - Balaji Ceramics.
+
+
+We would like to inform you that the seller: [Seller's Name] - Balaji Ceramics, plan is upgraded  to Plan 1.5 GB. like this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@Ajeet Singh - Salesforce / SAAS Integration 
+- ticket link: https://webkul.uvdesk.com/en/member/ticket/view/443490
+- Store Name: Transparent Freedom
+- App Name - Bigcommerce Marketplace
+- Description: The client is facing issues of getting some seller plan changed mail. 
+- Status : Sir fixed his issue as thi
+Sir fixed his ticket 
+thanks...
+@Ajeet Singh - Salesforce / SAAS Integration 
+- ticket link: https://webkul.uvdesk.com/en/member/ticket/view/443490
+- Store Name: Transparent Freedom
+- App Name - Bigcommerce Marketplace
+- Description: The client is facing issues of getting some seller plan changed mail. 
+- Status : Sir fixed his issue as thi
+Sir fixed his ticket 
+thanks...
+
+
+
+
+------- - Dependencies - -------
+
+For Staging:
+Wix auction : dev-vedant-outbid
+WixMp : dev-arjit-vellum
+Shopify Sap : dev-tapas
+WixEtsy: dev-tapas
+and master in rest.
+
+For live:
+Shopify Sap : dev-tapas
+and master in rest.
+
+
+
+
+***********************************************************************************************
+Oct 6 10:55 AM										     *
+***********************************************************************************************
+
+Things to do>>>>
+
+* Explore WixETSY. 
+* Explore Git reset and revert. 
+* Explore Git Submodules.
+* Explore Git index file. 
+
+
+
+
+***********************************************************************************************
+Oct 9 10:17 AM										     *
+***********************************************************************************************
+
+Things to do>>>>
+
+done : 
+* explored the git reset --soft --hard --mixed command. 
+
+* Explore the git submodules
+* take pam changes of wix auction ui related to other branch. 
+
+do the following task: https://javascript.info/introduction-browser-events#tasks by today. 
+
+
+
+
+
+divisor link   https://developer.etsy.com/documentation/reference/#operation/updateListingInventory
+sku case ss ***
+product api ss***
+
+category auto sync
+priduct update live
+
+
+
+sku product imported
+
+the link to find the content related to divisor. 
+https://developer.etsy.com/documentation/reference/#operation/updateListingInventory
+
+and attached the zip. 
+
+
+
+
+@developers please remember to replace file src/root/templates/applications/index.html.twig with dev-vedant-responsive branch when putting code to staging. 
+
+
+
+
+***********************************************************************************************
+Oct 9 10:17 AM										     *
+***********************************************************************************************
+
+Things to do>>>>
+Daily needs: 
+* Git study one internal video + covers commands. 1hr
+* Networking Continue daily day complete. 1 hr.
+* C.c Min 2 hrs 
+
+--------------------------------
+* also take care of velo
+* rabbit mq revision and exploration. 
+Office . 
+
+The yesterday work. 
+
+* A wix auction ticket 
+
+* Some points related to wix etsy. mentioned on the previous day. 
+
+pending. 
+
+ticket wix auction. ***
+
+video recording related to this ticket. 
+
+
+
+
+Upon closer examination, we determined that the problem does not originate from the auction app. 
+Specifically we have created a product without adding auction to that and we do not able to see the cart button and price etc on the product page, it can be associated with your site configuration in which you have not displayed these neccassary field on the product page.  
+Additionally, we have tested auction app with the product test auction page which we created yesterday it, as a result we found that the auction app seems to be work good. and the message "Auction ended for this product" is only displyed to non winner we have tested from two diffrent account where winners, see the normal page. This behavior is consistent with the site's configuration, which does not display the necessary fields for winners, i have also attached a recorded video please find below.
+
+
+
+
+Upon closer examination, we found that the issue is related to the product configuration on your website. Specifically, it was discovered that a product had been created without the inclusion of an auction component. Consequently, the "Add to Cart" button, as well as pricing information, were not visible on the product page. This suggests a potential oversight in your site's product page configuration, where essential fields for purchasing a product may not have been displayed.
+
+Furthermore, we conducted testing on a dedicated test auction page that was created recently. The results indicate  As you mentioned, there does not appear to be any issue with the auction winner display, as it correctly shows "Auction ended for this product" for non-winners. However, we did observe that for winners, the screen appears blank. This behavior is consistent with the site's configuration, which does not display the necessary fields for winners.
+
+
+
+tasks: 
+
+replied to the ticket. ***
+i have to close all the checks of rakhi webhook in mp and close his tickets. 
+
+now catching the js callbacks and async by today. *
+studied points: 
+
+* js events handleEvent method inside an object or solve the exersise of the event on javascript.info
+* studied the callbacks in which studied need of callbacks and callbacks style coding when loading the script but variables of the script are not loading. 
+* also explored some more concepts like callback hell and pyramid of doom its problem comes when we have so much nested callback call one * after solving this by making function more info : https://javascript.info/callbacks#pyramid-of-doom
+* 
+
+
+
+
+
+We have observed that when we sync the product category of one store, it causes the previously synced category to disappear if we sync the category of another store
+
+
+
+***********************************************************************************************
+Oct 11 11:32 AM										     *
+***********************************************************************************************
+
+Fixing the bigcommerce auction git issue #48 *
+
+1696917659 10 oct
+
+prefetch count in rabbit mq- 
+
+
+some problems that i am having are : 
+rabbit mq. 
+js asynchronous part. 
+apache networking. for ex apache2.conf
+
+
+
+task comments: 
+
+Velo Developer Certification by Velo Certificate includes several videos to prepare for the Velo examination. In the weekends i watch those videos and also try to implment the syllabus that covers in the video. In the upcoming weekend, I plan to attempt the examination. From tommmorow, I will be covering Velo topics daily, dedicating one hour per day for better results. 
+Additionally, I have a project to submit, which I will prepare for on the upcoming Sunday.
+I will provide an update on my progress next Monday. 
+
+
+
+
+
+***********************************************************************************************
+Oct 12 10:12 AM										     *
+***********************************************************************************************
+
+
+things to do >>
+
+* CI/CD pipelines. 
+*******Daily needs: ************
+* Git study one internal video + covers commands. 1hr
+* Networking Continue daily day complete. 1 hr.** for one week delay 
+* C.c Min 2 hrs 
+* wix velo 1 hr
+
+things in the weekend: 
+* rabbit mq full apply on my local and explore more topics such as prefetch count. 3 hrs
+* attempt for wix velo certificate. 7-8 hrs.  
+* Pipeline. 3hrs
+
+total est. time 10-14 hrs to do this things + the regular things are the same
+
+need to check wix auction and bigcommerce auction after update. 
+wix mp inventory deadline. 
+
+questions need to ask about wix inventory: 
+* do we need to manage the inventory in case of product variants. 
+Right now we have no variants thing save on our end. 
+so first i will add a track inventory option in the product edit and add page. 
+
+
+
+
+------- - Dependencies - -------
+For Staging:
+Wix auction : dev-vedant-outbid
+WixMp : dev-arjit-vellum
+Wix Etsy: dev-tapas
+Shopify Sap : dev-tapas
+Wix virtual try : dev-akash
+and master in rest.
+
+For live:
+Shopify Sap : dev-tapas
+Wix virtual try : dev-akash
+and master in rest.
+
+
+@all please remember to replace file src/root/templates/applications/index.html.twig with same file in dev-vedant-responsive branch in pam when restore the staging branches to the staging server.
+
+
+Write the changes need to be done in the pam. for staging and live from yourside. 
+
+* bigcommerce auction dependency need to put on diffrent folder public auction js and module listner me app_code == auctionapp.
+* delete useless from gitlab.
+* inventory process  update: add, update, webhook. 
+
+
+-------- Dependencies --------
+
+For Staging:
+WixMp : dev-arjit-vellum
+Wix Etsy: dev-tapas
+Shopify Sap : dev-tapas
+Wix virtual try : dev-akash
+Bigcommerce Auction: dev-vedant
+and master in rest.
+
+For live:
+Shopify Sap : dev-tapas
+Wix virtual try : dev-akash
+and master in rest.
+
+
+sir mujhe firse fever hogya hai, mujhe lagta nhi hai sir me shi se kaam karpaunga, mai ghar ja sakta hun !
+
+
+
+
+
+***********************************************************************************************
+Oct 26 10:31 AM										     *
+***********************************************************************************************
+
+
+pending things: 
+* wix mp feature inventory:  
+  - update the add product. 
+  - update the update the existing product.  
+  - webhook process of product. 
+  
+* return the book. 
+* time off
+* write all the credentials to adminer at one place. 
+* take a diary from guard. 
+* add a scessor to your gadgets.
+
+My weakareas: 
+-> fear of going deep. 
+
+
+
+
+
+
+
+if(isset($product_data['trackInventory'])) {
+            $platform_product_data['product']['stock']['trackInventory'] = $product_data['trackInventory'];
+            if($product_data['trackInventory']) {
+                $platform_product_data['product']['stock']['quantity'] = $product_data['quantity'];
+            } 
+        }
+        if(isset($product_data['inventory_status'])) {
+            $platform_product_data['product']['stock']['inStock'] = $product_data['inventory_status'];
+            $platform_product_data['product']['stock']['inventoryStatus'] = $product_data['inventory_status'] ? "IN_STOCK" : "OUT_OF_STOCK";
+        }
+
+
+OAUTH2.eyJraWQiOiJLaUp3NXZpeSIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1wiYXBwSWRcIjpcIjQzODgwZDcyLTYzNDQtNDMzYi05N2RmLTI1ZmU3ODBhM2JlZVwiLFwiaW5zdGFuY2VJZFwiOlwiNWYwODk1Y2QtYWM4NC00MjZlLWI0MTYtZTI3ZDcyNTgyMDFiXCIsXCJzY29wZVwiOltcIkg0c0lBQUFBQUFBQUFKVlgyNDdiSUJEOW9jai9nR0hpakJhREJUalo5QVd0cXFydFEvdlEvci9VNFdLQ2JieEpuN3JGTURPY09lY3dzZWpBVzNBTzFXQzdLOEx0ZE1OM2I1MDJZTHZlTUNXOEFTWk9JNHc5R052eG1iNk4vb3dnaFUyZmdPdXhDMzk1Ui9zdDR3NjFzbldjVVFzODM3MDJna0tjZXBTUzBuV092ZnZCNkhueUk1c21Xdkdjb2pnNHNkbGR0TUV2TEFUcTBQb0p6SWpPZ2ZEOTNkTmVqOG82cGpoVXVUa3pMaVVWY0FXcHAxRHRBTTdiY0VWOVUyQktablpsa2hubVN3VjJLY0hTYVFtdUJFWWw0SDFiZUgxOEJNTXZUTGxRdXdEbGtFbnI1MG1FZTFRSW9EcHJ3amxDazFEYm81QXpmLzM0KytQbnR6L2RyNC9mSDkrL2xYMFNyZk00VGhKR1N0UEdNZU4zbERlZ29VMWpWK3h6S2J1T2EyWUpUOEtXYzQ5ZW5HZDVwaUNoVUh2aXN6R2crTjF6cmE1Z3FQVGNzTFNPMEFhMnhqTWo4ekwrTzREak5WYXJUMlBrbkJ0Q2piUm1BZzlUR0UvbnpBQTVJL0ZXajVHMGxxNDRhZU04blZUdXNDRjduaVRGNWR5TDV2Sy8vb2J1a3JSZ2JlRlJSRDBMakYrQXYrbVpRSStycVc5bDFaOE5LVGZvcE00WWUzRkJRUmYzZHU0dE56akY0dlNVZFB4b2E1WUI5ZEdSeUpOZGVMVzJqTGh4TWxyTXRHUFZnOFZsRmpwVjBpMWxOK1FMQWlreXJjTGtLZFpiZy9ZSE1OYjJaRUhsK2tucEtOY2RDVDNTNXI3QVRrNUFtRFBGQnZBQmVZSkcrSVRMSjk2MTRXaWtNSk44bG94aTUxS2FXZmZWMXkwcFVPN3R0SVJvVkZYU1ZXaEdESHBNbk14OUZXaTVub242UVNFdDRjQVF1RkNKb2VrQW53ZzBCUzcydXNVaGQ2cUJYazY5TjUrYWk0MERNUU0zNDlKQ1NmKzN4Nlh2NDJmWjVBd2JFTVByTTgzQkx5eFFqMnpFZnkzVVBZcUYra2VDYnowWUN6K2V1ZTl6Vzh2UkcxVVN2ZkFhdmhFTEpob0V5TTNBejBabTdKNGFjKzM4UWF5RWprVE9lbkpiWjNBWUZnQmI1cmUvVitaMW9mekthRklTSmtUZ3ZVYmVPdG4wcjJQSnR0Njd5S0hDaXVPcEo0MFZTMk5mbWl3ZTAwMTVKWGdZWW1SK0pWNkpjVEE2TERkNkdCN3JpVmRhd2NOZGo4VGRZdVZtb2xweHRTRVlLaUhFeWFUWnhqbCtWYUsvU3h4d1JaaTZ4QkVIRTdIeWtUdUhYTi9pVkJNemsyTTFsTVFQMU1IUlB4endLUGJHd1RaV0JkYmhHUHlDdG03Tll2TUE3N0ZjVDJUUDFQWnFoWnR3S3dkcVBRelpLUGVEZFpGMGZBQnA4NTRPOW5pcVhPTWVPbHRQSmVreFRpUEpFVDR0ZDY0SHpCQ3o1V3IwV1lZckgzcFA0N25aTUsyQjRTS1g3Uk1XVTdZZjQwM1EvNTFqNjBrcG83bjZpYlhjbmZWdGZZZXBOeXVCMnUxNS9PSFFSZWVhMkQwb2dmTFNieTN4V2RHZnVPVHJ6LzVLajRsdUsvVlYweUNqM2pWZTk4TGduRFNiVGg2V0dJR1ZGdllJN0llWGxPZmhrTkhvR3FORTgzbWpBMHZWejMrNTVBNHV4YWFyL3dQaFZGUFRkUThBQUE9PVwiXSxcImV4dHJhQXR0cmlidXRlc1wiOntcIndpeC1nemlwcGVkLXNjb3BlXCI6XCJcIn19IiwiaWF0IjoxNjk4MzI5ODQyLCJleHAiOjE2OTgzMzAxNDJ9.jBzOAV8RwOZkPyOkpv4wdRyBxga3yLLR6wLUcFd51veESKaFr4gYUyGgZTKUffwLgdbn67n1iuFfUFAvF1HnG716IICke9Tinn453as5VvXhTLM-uFiwDMG7gBasIJEiTXM_Qh7Dij3EMsKwia1jhnEDJ06JrM3_-POeSALgzPCagyHZ_KBRATjnmZDC4J3X0WZWz2U0_V30EPH9KM_RSyFk6aau1epk8FOph75CTERYAEfSr41bOFnhKuSCjYERxmNrsv3jz-qeQTKELff4yX-d7inerjc9-kc6XNphccIAFq6beQWiuDeHQu4ZxwfcyuwjivwIQsln__XUVYFaVg
+
+
+2855770f-af56-6118-90c4-4b9d963f101d
+
+OAUTH2.eyJraWQiOiJLaUp3NXZpeSIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1wiYXBwSWRcIjpcIjQzODgwZDcyLTYzNDQtNDMzYi05N2RmLTI1ZmU3ODBhM2JlZVwiLFwiaW5zdGFuY2VJZFwiOlwiNWYwODk1Y2QtYWM4NC00MjZlLWI0MTYtZTI3ZDcyNTgyMDFiXCIsXCJzY29wZVwiOltcIkg0c0lBQUFBQUFBQUFKVlgyNDdiSUJEOW9jai9nR0hpakJhREJUalo5QVd0cXFydFEvdlEvci9VNFdLQ2JieEpuN3JGTURPY09lY3dzZWpBVzNBTzFXQzdLOEx0ZE1OM2I1MDJZTHZlTUNXOEFTWk9JNHc5R052eG1iNk4vb3dnaFUyZmdPdXhDMzk1Ui9zdDR3NjFzbldjVVFzODM3MDJna0tjZXBTUzBuV092ZnZCNkhueUk1c21Xdkdjb2pnNHNkbGR0TUV2TEFUcTBQb0p6SWpPZ2ZEOTNkTmVqOG82cGpoVXVUa3pMaVVWY0FXcHAxRHRBTTdiY0VWOVUyQktablpsa2hubVN3VjJLY0hTYVFtdUJFWWw0SDFiZUgxOEJNTXZUTGxRdXdEbGtFbnI1MG1FZTFRSW9EcHJ3amxDazFEYm81QXpmLzM0KytQbnR6L2RyNC9mSDkrL2xYMFNyZk00VGhKR1N0UEdNZU4zbERlZ29VMWpWK3h6S2J1T2EyWUpUOEtXYzQ5ZW5HZDVwaUNoVUh2aXN6R2crTjF6cmE1Z3FQVGNzTFNPMEFhMnhqTWo4ekwrTzREak5WYXJUMlBrbkJ0Q2piUm1BZzlUR0UvbnpBQTVJL0ZXajVHMGxxNDRhZU04blZUdXNDRjduaVRGNWR5TDV2Sy8vb2J1a3JSZ2JlRlJSRDBMakYrQXYrbVpRSStycVc5bDFaOE5LVGZvcE00WWUzRkJRUmYzZHU0dE56akY0dlNVZFB4b2E1WUI5ZEdSeUpOZGVMVzJqTGh4TWxyTXRHUFZnOFZsRmpwVjBpMWxOK1FMQWlreXJjTGtLZFpiZy9ZSE1OYjJaRUhsK2tucEtOY2RDVDNTNXI3QVRrNUFtRFBGQnZBQmVZSkcrSVRMSjk2MTRXaWtNSk44bG94aTUxS2FXZmZWMXkwcFVPN3R0SVJvVkZYU1ZXaEdESHBNbk14OUZXaTVub242UVNFdDRjQVF1RkNKb2VrQW53ZzBCUzcydXNVaGQ2cUJYazY5TjUrYWk0MERNUU0zNDlKQ1NmKzN4Nlh2NDJmWjVBd2JFTVByTTgzQkx5eFFqMnpFZnkzVVBZcUYra2VDYnowWUN6K2V1ZTl6Vzh2UkcxVVN2ZkFhdmhFTEpob0V5TTNBejBabTdKNGFjKzM4UWF5RWprVE9lbkpiWjNBWUZnQmI1cmUvVitaMW9mekthRklTSmtUZ3ZVYmVPdG4wcjJQSnR0Njd5S0hDaXVPcEo0MFZTMk5mbWl3ZTAwMTVKWGdZWW1SK0pWNkpjVEE2TERkNkdCN3JpVmRhd2NOZGo4VGRZdVZtb2xweHRTRVlLaUhFeWFUWnhqbCtWYUsvU3h4d1JaaTZ4QkVIRTdIeWtUdUhYTi9pVkJNemsyTTFsTVFQMU1IUlB4endLUGJHd1RaV0JkYmhHUHlDdG03Tll2TUE3N0ZjVDJUUDFQWnFoWnR3S3dkcVBRelpLUGVEZFpGMGZBQnA4NTRPOW5pcVhPTWVPbHRQSmVreFRpUEpFVDR0ZDY0SHpCQ3o1V3IwV1lZckgzcFA0N25aTUsyQjRTS1g3Uk1XVTdZZjQwM1EvNTFqNjBrcG83bjZpYlhjbmZWdGZZZXBOeXVCMnUxNS9PSFFSZWVhMkQwb2dmTFNieTN4V2RHZnVPVHJ6LzVLajRsdUsvVlYweUNqM2pWZTk4TGduRFNiVGg2V0dJR1ZGdllJN0llWGxPZmhrTkhvR3FORTgzbWpBMHZWejMrNTVBNHV4YWFyL3dQaFZGUFRkUThBQUE9PVwiXSxcImV4dHJhQXR0cmlidXRlc1wiOntcIndpeC1nemlwcGVkLXNjb3BlXCI6XCJcIn19IiwiaWF0IjoxNjk4MzMwNjExLCJleHAiOjE2OTgzMzA5MTF9.SsQLkaMsVKWZeSQEHzF-t3kzhFbNu9m9ONHAls5UzyKMW8I4lDzEQfikOANPltAZ74RFtDxryR20ER3ur6BjgD3BBlF25vCBPiGLbHC8KFjqqwkSEBcePAytoG3Wk3XIn3K7QKCW35zDmURBMb2nxoNn2K1wlfcfl3Ti-f0FZMpZI5o7sgryXddhr1kf5MKLdnk0H2y7quO5hUZlmdfElMIZVu2fSYtFbXys2xHBd6TpkfpzriLcItQ7X0MApPz__6THCPs0igSyUD48Y4mWWk_q0g4OaD8IdhUBZ3aEuadGNZLeJP2OprdlylyLo1vjjaiVVLwN9gXd2s8t9oeFXw
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Oct 27 12:08pm
+-----------------
+essential things to do today high priority: 
+* return the book. 
+* time off
+* write all the credentials to adminer at one place. 
+* take a diary from guard. 
+* add a scessor to your gadgets.
+
+pending tasks: 
+
+* wix mp update(saturday). 
+* wix oauth problem. 
+* see how live app work on marketplace. 
+* CI/CD Pipelines.
+
+
+* install and test big commerce chatgpt live application, and add a screen recording video on its task 
+   -- the redirect uri is reflecting of wix.webkul origin need to discuss it .
+  -- also need to test the application on live. 
+  ****************
+** tested and recorded the video. https://webkul.chatwhizz.com/share/view-recording/653b8f7221852d058fcd633b
+
+
+* need to update email template content (comment and related content is added in the task by vaibhav sir)
+  ref task: https://erp.webkul.com/web#action=1758&cids=1&id=172446&menu_id=1228&model=project.task&view_type=form
+  ******
+  added the following mail content. with price . 
+
+
+* Git issue no 48. (bigcommerce auction) fixed the git issue. 
+* Wix Auction git issues :
+- recall and go through with the changes that were done earlier
+- create list of existing p1 & p2 issues with update on each one
+- clear the application working flow in new update
+- setup a demo on the 27 Oct evening,
+
+
+
+
+
+
+
+
+Hi Danial, 
+
+thanks for reaching out to us, 
+
+as we look into this problem, we have checked that according to the current flow when a seller's plan renews, a seller plan renewed email will be sent only to the seller.
+
+
+
+Currently pending tasks: 
+
+* Wix mp(Inventory) this is pending and currently solving. 
+* install and test big commerce chatgpt live application, and add a screen recording video on its task ** video recorded but not uploaded on the task. 
+* Git issue no 48. fix this git issue. 
+* Wix Auction git issues.
+
+
+
+
+
+
+eyJraWQiOiI3X0NxcG5hTCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1wiZGF0YVwiOlwie1xcXCJwcm9kdWN0SWRcXFwiOlxcXCJjZTNhOTViZi0wYmE5LTMyYWYtNDU2Ni03ZTI4ODliMjkxNDNcXFwiLFxcXCJuYW1lXFxcIjpcXFwiY29weSBvZiBBY2VyIE1vbml0b3IgMTZcXFxcXFxcIlxcXCIsXFxcInByaWNlXFxcIjp7XFxcImN1cnJlbmN5XFxcIjpcXFwiVVNEXFxcIixcXFwicHJpY2VcXFwiOjE1MDAwLjAsXFxcImRpc2NvdW50ZWRQcmljZVxcXCI6MTUwMDAuMCxcXFwiZm9ybWF0dGVkXFxcIjp7XFxcInByaWNlXFxcIjpcXFwiJDE1LDAwMC4wMFxcXCIsXFxcImRpc2NvdW50ZWRQcmljZVxcXCI6XFxcIiQxNSwwMDAuMDBcXFwifX0sXFxcInZpc2libGVcXFwiOnRydWUsXFxcIm1lZGlhXFxcIjp7XFxcIml0ZW1zXFxcIjpbXX0sXFxcInNrdVxcXCI6XFxcIlxcXCIsXFxcInByb2R1Y3RQYWdlVXJsXFxcIjp7XFxcImJhc2VcXFwiOlxcXCJodHRwczovL3d3dy5ob2JieWlzdC5zdG9yZS9cXFwiLFxcXCJwYXRoXFxcIjpcXFwiL3Byb2R1Y3QtcGFnZS9jb3B5LW9mLWFjZXItbW9uaXRvci0xNlxcXCJ9fVwiLFwiaW5zdGFuY2VJZFwiOlwiMDdiMzg4MTQtZjc5OC00ZDQ4LTg2YmEtNWFiMGNlYzk3ODVmXCIsXCJldmVudFR5cGVcIjpcImNvbS53aXguZWNvbW1lcmNlLmNhdGFsb2cuYXBpLnYxLlByb2R1Y3RDcmVhdGVkXCJ9IiwiaWF0IjoxNjk4NzUxMjUyLCJleHAiOjE3MDIzNTEyNTJ9.B3aWLoWgFLzvlAptsIIq3DF0kTUp59CiP1nu_JdwupwOpMdw183stn8S39_tt6i2mAhHTIEzehN1PjHefaaMh1vbuFTG6pYFiD0fheE1eoZHV-ObcrpO6deLj2eNR84uNpbLABa8IM8iFHuaQ4H2XUqLBXyb3FN7B2XfPxLEzVF9DTLYgMC3gn9cdO6I-TnHyCL2ZETcGjYknqLaZM8r4LbqXUFIcj0H86Aavfy4uFwRhhAmn5BRk43sFbMpZGIA0VNzQVitGD7qGwV2Zp9guNWB-rd9NiCbncbZJ3xPAL8JgwO8qe2pECAebccfPQf1mdztbjUmLxVX2IvJpjvgkg
+eyJraWQiOiJ1MDQ2U2hIZyIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1wiZGF0YVwiOlwie1xcXCJwcm9kdWN0SWRcXFwiOlxcXCJjZTNhOTViZi0wYmE5LTMyYWYtNDU2Ni03ZTI4ODliMjkxNDNcXFwiLFxcXCJuYW1lXFxcIjpcXFwiY29weSBvZiBBY2VyIE1vbml0b3IgMTZcXFxcXFxcIlxcXCIsXFxcInByaWNlXFxcIjp7XFxcImN1cnJlbmN5XFxcIjpcXFwiVVNEXFxcIixcXFwicHJpY2VcXFwiOjE1MDAwLjAsXFxcImRpc2NvdW50ZWRQcmljZVxcXCI6MTUwMDAuMCxcXFwiZm9ybWF0dGVkXFxcIjp7XFxcInByaWNlXFxcIjpcXFwiJDE1LDAwMC4wMFxcXCIsXFxcImRpc2NvdW50ZWRQcmljZVxcXCI6XFxcIiQxNSwwMDAuMDBcXFwifX0sXFxcInZpc2libGVcXFwiOnRydWUsXFxcIm1lZGlhXFxcIjp7XFxcIml0ZW1zXFxcIjpbXX0sXFxcInNrdVxcXCI6XFxcIlxcXCIsXFxcInByb2R1Y3RQYWdlVXJsXFxcIjp7XFxcImJhc2VcXFwiOlxcXCJodHRwczovL3d3dy5ob2JieWlzdC5zdG9yZS9cXFwiLFxcXCJwYXRoXFxcIjpcXFwiL3Byb2R1Y3QtcGFnZS9jb3B5LW9mLWFjZXItbW9uaXRvci0xNlxcXCJ9fVwiLFwiaW5zdGFuY2VJZFwiOlwiYTMyMzVkMTQtMWJiYS00M2JiLWI5OGUtNGYzMTgzMTMzZmJlXCIsXCJldmVudFR5cGVcIjpcImNvbS53aXguZWNvbW1lcmNlLmNhdGFsb2cuYXBpLnYxLlByb2R1Y3RDcmVhdGVkXCJ9IiwiaWF0IjoxNjk4NzUxMjUyLCJleHAiOjE3MDIzNTEyNTJ9.Pg2pfOcAaBUmbNAkfC8gdj_BSBNkaKhbGm6J15tqomF_IaJsz6YnoalA9yLKaxEhrJfLWmy1t7RX7pYgIsRvmUuDTDnaNWp4RxRJaPO7Vb2vFsiPpj7QDDIgFCtfIuLStjzPCQyXyszPevsE984k0csu9EOiCWrEITB9nfVtbojkj-K3Q0aVVqx66Ul_AwSKuVYjiMUwyVY2ETxRF9rjL7p1NDEd73JFS9jGJJ-pRf6mbdWDXNTyhM4msmT9_zrJILqtqYq3gYm5biq15e-1GBB74Q2sipEwncrb3aQo9zDBuEpxakT76fbg2BkNnLCu6Ldra3C2FZywAdNvQazotg
+
+
+
+
+
+
+
+
+OAUTH2.eyJraWQiOiJLaUp3NXZpeSIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1wiYXBwSWRcIjpcIjVkYzdjN2VjLWFjZDktNGFlZC1hNjBjLTNmMTI0ZjE3YWI3N1wiLFwiaW5zdGFuY2VJZFwiOlwiMDdiMzg4MTQtZjc5OC00ZDQ4LTg2YmEtNWFiMGNlYzk3ODVmXCIsXCJzY29wZVwiOltcIkg0c0lBQUFBQUFBQUFKVlgyMjdqSUJEOW9jai9RUERFUWVWaUFVNmJmVUZSOTlhSHR0SzJML3YzTzF4TXNNRk45czFDeklVelo4Nk1EYlBnREZqTDVHQzZFNFBIM1NON2NzWXFEYWJiYXlKN3A0SDBPNkJLZFA3TFdUdzBoRnFtcENrdkM5V3p3OWtwM1lNMnV6M2pISDEybGp5NVFhdHBkSUtNSTU0NGlsNHM3TWhrajBxemI4UTc2cGh4STJqQnJJWGU3YzhPN3pvbWpTV1NRaEdiRW0xajBCNU93QlhhbUc0QTY0eC9oM3FVb0hOa2NpS2NhT0p5Qm1aT3dhQTFCNXNkTTluRDB6cngwbHlBcGtjaXJjKzlCMmtaNGNaTlkrL2ZVU0RBNUVFaG1BR2FpRnFOUW9yOGZQbjQvZkxqVC9kNmVidjgrcEh2Y1dhc1kyTGtJREJNRzhlRTMxWmNqNGJTalZ1aG1EbnQwcStlT054d20rMnV0VGhNL0lCT2ZLSm1SeWV0UWRLem8wcWVRR1BxcVdEeG5FRWIyQkxQaE16ZCtGY0FoMmNzVG0vNlNERlhoQko0cGowUG94dUhkbnFBRkJGNXEwUWdyY0VuamtwYmg1YlNiaGFrNWtsc3E1S0RxWGZvRWVpRG1oRFBjQnBMa2svZFFTc1JXcUIwRm1BK3NoN2Y1TXkwTjFTek1jUlZZMnpSYThVU3c3RkVGdnMzdHJ1VHk1WVBGMGV0K2dsdkxPQ2RWV0ptU3RHVk9lMUdaMExQMERPZXd1alExME9EMFJzSW1VSjVETWlVUHpZeDQwdXdQZnhLbjljTXFxV25jWUVTVGlkTzBENkZhM3F1TXl4aHozRFZhcGhkTkxMSzRRckV3anYzTEZJcTFhNW5ocW9KbWVzSjN1STlETDdlQlplYkRmeEZmMFhIV1IzWE9LUnFOTkJMb1d2dEtQbldNS2lSTGpPdDNhVk9TQTVYbVBsWk1VNit1dzFnU1V3RmQyYnVWaXUycEh3dS9TMWR2QzA0eVRzV2NjUlppMW9DYnRLOEUwU1NvVjJQeHBnSlRQRDloSy9sakpJOWFwM1ZiQmhtUUZyU1UrZWVhSmtadTlDQ0dJVDB2YWV0WXJSbDJaU1k3WTVyVFp0QWdWemxlOGIxZFdYSTBrdjlac0NUOU43alkyTWV6NGxlcFlic2tSSkt3bFhYdGxxdVJhalZtcktnV1lQWG1JTDNrN2l3OXJPdDUwRlpPUnZZZ2dkbGlvSU5PbURsQWlVMmFickdxZVJicXZsaTBndWlIOEMzRTFvUE1jOTRHVGN3NGE1YXRSVnZwVFVyVVFGam1mQ3RqbGZYZmI0YWh6Vyt5OVhuVm1QZG0rSEszVUpRV2hJZWE5bllZSFAzSXJXQ0dOUVVNZHZyMjdJV3Z0cmxqaEJIWTF3UXR2QnBDV3U1eVgybEpBM3RYeEdzQWRQY0pXdTFEMEhiazNIbDlIOTN3bkkxU1lBdGZsZWUzOTgrTDgrZkg5M3IrL2VYbjMvcjlUR3hIOHZwYU5qQXUvQm5NWkt6Wno4R3haK1cvcXVNdnhDOCt3ZHdjcExGR2Q4NnpLK0s3Rm8wMnk3dVdERlZFSHVvL3RrSTU2MXBuSG1jVWt0eWxKWWJnbmpHZ3hxbmV0bUljYTdhR1NTd01mcWI4d3dONXNmYy9sRklSWjZUallqOEEvdG1FdERKRGdBQVwiXSxcImV4dHJhQXR0cmlidXRlc1wiOntcIndpeC1nemlwcGVkLXNjb3BlXCI6XCJcIn19IiwiaWF0IjoxNjk4NzUzNTU1LCJleHAiOjE2OTg3NTM4NTV9.psJT7uDslibMSIddKfyc0ELtRonMpF-xz1FB5l8AakXYZNM453ivDp35wCTijQVT4vqrWE_cmJuICJeEBYfkJepKa1H3_bMQR5nqe5Y5pu4Sb28I4OB3d2Gn_nEbR0OqGuHqvAZmqYcHW5-HrkBe-6FYkTGDOAmAagC2Fuy8XZioq8zvD20CvUbkkVOpow1bXT-DpQUcUsvs-ZUSGaiMtQWgvlipeh5nNwmYaGZJgrJsAfHbnm6qs_J7O9i1Z3Upor_cpVcMmE3ogUd2eBFJ_71dVNAENWIplMbR7OE8ZWnlgd7qBkZp-gaiRCTA43CT5ymAF-6QqqqH62tJghOkBA
+
+
+
+https://www.amazon.in/JavaScript-Good-Parts-Crockford/dp/8184045220/ref=sr_1_1?crid=GSRQPJO1K8CR&keywords=javascript+the+good+parts&qid=1698747820&sprefix=java+script+th%2Caps%2C197&sr=8-1
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Nov 1 11:44pm
+-----------------
+
+chatgpt application comment - 
+@Rishabh Singh - Salesforce / SAAS Integration 
+*Sir, the ChatGPT URL mismatch issue is occurring due to the generation of authentication URLs during the application sync process. 
+*According to the code, the application URL is only synced for the first time. Now, if we open the PAM using different origins and server such as 'webhook-staging,' 'wix.webkul,' or 
+ 'bigcommerce.webkul,' it generates the authentication URLs for the application based on the url.
+
+-For example, I am sharing an image that illustrates the authentication URLs generated on the 'webhook-staging' server, and these URLs have been modified as per the server URL. 
+After syncing the application the auth urls will also generate the same as server url. that's why we are getting this url mismatch problem. 
+
+
+
+Hi all, I will leave early on Friday by 6 pm, because I have to catch my train to go to the Khatu Shyam Ji temple
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Nov 2 02:44pm
+-----------------
+
+etsy wale task par abhi work mat karna, phle bc chatgpt kal dobara resubmission k liye bhejna hai
+to apne end par test kar k, jo needed url hai usko app me update kar k test kar lena
+then ajeet sir se communicate kar lena
+agar mai na aya time se to,, client id secret match kara lena,  agar galat ho to usko update kara lena
+uske baad jis store se ham app publish kar rhe hain uspr app install kar k test karenge
+then final karenge ki app dobara submission k liye bheja ja sakta hai
+subah  aakr apne misc task pr update kar dena ki usko hold kar k ispr work kr rhe ho, or ajeet sir aa jaye to unko bata dena
+ki mai etsy hold kar k ispr work kar rha hu,
+
+
+
+tasks: 
+* etsy sync product from etsy to wix. 
+	- get product from etsy to our app. 
+	
+	
+shop id:. 31562060
+			
+listing id: 1578900162, 1581022524
+product id: 18714216212, 18761706264
+
+commit id master etsy for history. 
+e747264c15c03754c61a99b02d7e868d86faaa5f
+
+
+
+
+*************
+Nov 6 2023   * 
+16:40 PM     *
+*************
+
+
+Pending Tasks: 
+* Apply new complex pattern for syncing the process instead of brute force. 
+* Inventory.
+* images and video 
+* To wix. 
+
+
+
+
+in etsy the invenory is managed as supposed to be very length for ex
+
+if we a single options so the it will have diffrent propery name and values if we have total 5 values so total 5 value to be sent 
+
+but if we have two options of 5, 5 values each then we will have 5*5 = 25 
+ 
+*************
+Nov 7 2023   * 
+11:09 AM     *
+************* 
+
+task comment: misscelenous. 
+
+I am currently working on the Wix-Etsy sync product task, by keeping this task on, because its deadline has passed. As, When I was initially assigned to the wix etsy task, I had to work on chatgpt task that day.
+
+i have 2:30 hrs to lunch. 
+
+things to do before lunch: 
+
+* complete the variants functionality in wix etsy. max 1: 30 hrs **
+* make the image functionality. max- 1hr
+* make the video functiionality. 
+* make the sync to wix functinality
+after cover the webhook flow.  
+
+
+
+
+
+code of product variants: 
+
+foreach ($Variantproduct->property_values as $propertyValue) {
+                            // $productOption = $productVariantRepo->findOneBy(['etsy_property_id' => $propertyValue->property_id]);
+                            // $choices = $productOption->getChoices();
+                            // if(!empty($productChoice)) {
+                            //     $indexCount = 0;
+                            //     foreach($propertyValue->value_ids as $propertyValueId) {
+                            //         $indexCount++;
+                            //         if(!array_key_exists($propertyValueId, $choices)) {
+                            //             $choices[$propertyValueId] = $propertyValue->values[$indexCount];
+                            //             $productOption->setChoices($choices);
+                            //         }
+                            //     }
+                            // } else {
+                                $productOptions = new ProductOptions();
+                                $productOptions->setName($propertyValue->property_name);
+                                $productOptions->setEtsyPropertyId($propertyValue->property_id);
+                                $choices = array_combine($propertyValue->value_ids, $propertyValue->values);
+                                $productOption
+                            // }
+
+
+
+
+*************
+Nov 8 2023   * 
+11:10 AM     *
+************* 
+
+Tasks to do: 
+* Product from db to wix  *
+* add origin to db product table. 
+* cron functionality auto sync  
+* find bugs in variants code. 
+
+- product from db to wix: 
+* check and explore the way product sync to etsy has made. *
+* then implement it. *
+
+code logic media: 
+
+
+if($index == 0) {
+            //     $extraDetails['media']['mainMedia'] = [
+            //         "thumbnail" => [
+            //             "url" => $image->url_75x75,
+            //             "width" => 75,
+            //             "height" => 75,
+            //             "altText" => !is_null($image->alt_text) ? $image->alt_text : "",
+            //         ],
+            //         "mediaType" => "image",
+            //         "title" => "",
+            //         "id" => "",
+            //         "image" => [
+            //             "url" => $image->url_fullxfull,
+            //             "width" => $image->full_width,
+            //             "height" => $image->full_height,
+            //             "altText" => !is_null($image->alt_text) ? $image->alt_text : "",
+            //         ]
+            //     ];
+            // } else {
+            //     $extraDetails['media']['items'][] = [
+            //         "thumbnail" => [
+            //             "url" => $image->url_75x75,
+            //             "width" => 75,
+            //             "height" => 75,
+            //             "altText" => !is_null($image->alt_text) ? $image->alt_text : "",
+            //         ],
+            //         "mediaType" => "image",
+            //         "title" => "",
+            //         "id" => "",
+            //         "image" => [
+            //             "url" => $image->url_fullxfull,
+            //             "width" => $image->full_width,
+            //             "height" => $image->full_height,
+            //             "altText" => !is_null($image->alt_text) ? $image->alt_text : "",
+            //         ]
+            //     ];
+            // }
+            // $index++;
+
+
+
+
+*************
+Nov 9 2023   * 
+11:10 AM     *
+************* 
+
+Tasks to do: 
+* cron functionality auto sync  
+* add origin to db product table. 
+* find bugs in variants code.
+
+things related to sync: 
+sync duplicate entry check. 
+
+things related to cron autosync: 
+
+* we have to auto sync from etsy and also sync to wix. 
+* how can i check if a product
+
+
+
+*************
+Nov 14 2023   * 
+12:10 AM     *
+*************
+
+
+
+Tasks to do: 
+* cron functionality auto sync.   
+* add origin to db product table. 
+* find bugs in variants code. 
+
+things related to sync: 
+sync duplicate entry check. 
+
+things related to cron autosync: 
+
+* we have to auto sync from etsy and also sync to wix. 
+* how can i check if a product
+
+what i need to do with timings : 
+
+* batch synchronization to wix / cron. 
+* add origin to db products table.
+* test the whole cron functionality. 
+* find bugs in the variants code. 
+* sync duplicate entry check.
+* fix the sku thing. 
+
+
+real analysis: 
+
+* create three functionality with cron of created, updated and deleted. 
+
+
+
+
+
+*************
+Nov 16 2023   * 
+13:10      *
+*************
+
+
+
+pending task: 
+
+make a setting
+add the auto update functionality
+
+
+
+
+*************
+Nov 17 2023   * 
+12:10      *
+*************
+
+cases going workst: 
+
+* if synced product will delelted from wix. 
+* check if both products at a time will not create any problem. 
+
+to do: 
+* wix auction git issues see. 
+* wix auction git issues time. 
+* wix etsy remaining things.
+
+
+setup wix auction: 
+
+
+
+
+
+*************
+Nov 20 2023 *
+11:01       *
+*************
+
+Wix Auction git issues: 
+
+P1 Git issues: 
+ 
+#32: commented and assigned to the tester **
+#34: the deleted product from wix not delete the product of the application even after sync the application. 
+	after deleting a product from wix it also deleting from our aplication but if auction is created previously then it will delete the product but do not delte the auction.  **
+
+#56: on searching auction products add to cart appears this issue was previously it can be happen this issue is reopen due to branch not on staging. **
+
+
+#59: reopen.  same as 56**
+
+#64: need to meeting.  **
+
+#67: The Embedded Script is not working on the New product page
+
+maybe the embedded scrpt not working on the product page but the page shown in the issue is old page and i have verified on the vijay sir account it is running and auction is showing on the page. 
+
+#72: when placing a bid with increment feature with incremeent value 5 and base price 10 then it creates problem it shows undefined on 20
+no problem is shown at my end now i will check at vijay sir account. sir problem with get id null with auctin message is getting on staging account. **
+
+#78: problem when opening page from auction products to shop then it do not hide the active product price. **
+
+
+no problem at my side see to the sir side. no problem at sir side.
+
+
+#79: same as 32 the auction product is deleted from wix and still we can set auction **
+yes
+
+
+P2 Git issues: 
+
+#43 undefined in the auction message. 
+#45 
+#49
+#52
+#60
+#61
+#63
+#70 when user input a decimal or zero value it show error message of The Bid Increment Value should not exceed 5 digits and must be greater than zero.
+#71 same about the error message.
+#73 about the error message which gets after placing a bid which is not an incremented bid. 
+
+
+
+TO DO: 
+
+* git submodules
+* git ci/cd pipelines. 
+* Node
+ - Async/ await 
+ - Promise
+ - Express
+ - Node
+ - How to create api in node using vanilla server
+* shell script basics. 
+
+Git CI/CD pipelines :
+ 
+concepts to study: 
+- variables *
+- recursive strateggy *
+- tags *
+- script *
+- 
+
+--------------------------------------------------------------------------
+roadMap for years: 
+
+
+
+    To help give you something of an outline, here is something I wrote for another guy a few weeks ago that I think it could be helpful for you too. I’ve added a few things as well. You may know some of this already, but since I don’t know what you do and don’t know I’m gonna include everything I can to make this understandable to someone with no knowledge. Please keep in mind, learning all of the stuff below took me years and years. I had many, many private lessons and spent stupid money trying to figure this stuff out. So if you don't understand anything on your first pass or you get frustrated, keep that in mind. It takes a long time to really start to see all of this stuff come together. With that in mind...
+
+    First, figure out where all of the notes are on a guitar neck. Next, I would recommend understanding the major scale. It’s really just eight notes in an order, where the notes are separated by a pattern of half steps and whole steps. For example, C major is CDEFGABC. If you count through this major scale, you'll notice that the pattern of half steps and whole steps between the notes is: Whole - Whole - Half - Whole - Whole - Whole - Half. If you start with any note and follow that pattern, you'll have a major scale for that starting note. For example, the G major scale is GABCDEFsharpG. Go through that scale yourself and count the whole steps and half steps and you'll find the same pattern. Again, this works for any note. One thing to know is that each note in the major scale is called a "degree" of the major scale. For example, in C Major, C is the first degree (or I), D is the second (or II) and so on. Another thing to note about the major scale is that notes are separated by "intervals". So, for example, in the C major scale, the "second" of C is E, the "third" of C is E, and so forth.
+
+    Once you understand what the major scale is, then learn to play the major scale up and down the neck. One way to do this is by using the CAGED system. There are a number of videos on YouTube that describe this system. It's essentially just five patterns on the neck where the patterns map to the notes of a major scale. Each of these patterns also include a chord shape within it.
+
+    If you already know the CAGED system, I wouldn't learn any other scales for now. Instead, I would recommend starting to dig into the major scale deep. Here are some of things I mean:
+
+        Learn that each degree of the major scale has a function: 1 - tonic, 2 - supertonic, 3 - mediant, 4 - subdominant, 5 - dominant, 6 - submediant, flat 7 - subtonic, natural 7 - leading tone. Learn how each of these sound in the context of the scale as a whole. For example, the supertonic (2), subdominant (4), and the leading tone (7) are all degrees that rarely resolve well (i.e., you don't want to end on those notes most of the time). However, the mediant (3) sounds great to resolve on because it colors the whole scale. What I mean by "colors" is that if you were to flat the third degree of the scale, you would get a minor sound (i.e., sad) instead of a major sound.
+
+    Once you learn how these different degrees function, I'd recommend learning how to resolve to those different degrees when playing. For example, learn a classic blues lick and figure out what degree that lick ends on. Does it end on the root? The third? the flat seventh? What kind of story do each of those licks tell and how does that resolving note color that story? At the same time, I'd recommend developing a deep memorization of where certain degrees are within each of the CAGED shapes. This way when you play you can focus on telling a story that gets back to whichever degree you want to talk about.
+
+    After you get comfortable with the above, learn that each degree in the major scale corresponds to a a particular chord that is included within the major scale. Take the C Major scale for example. The C Major scale has the following chords within it: C Maj (CEG), Dm (DFA), Em (EGB), F Maj (FAC), G Maj (GBD), Am (ACE), B dim (BDF). If you don't know this already, learn that each major chord consists of three notes: the 1st, 3rd, and 5th degrees within their respective major scale. Minor chords are 1-flat3-5. Diminished chords are 1-flat3-flat5. There are other fancier chords you can learn later, but those do a good job at the beginning. Another pattern you can memorize is that the chords within any major scale follow the same pattern: Major (M) - minor (m) - m - M - M - m - diminished (dim). So, for a different example, in the key of G major we know the notes are GABCDEFsharpG. Just by memorizing that pattern I know that the following chords lie within the G major scale: G Maj - A min - B min - C Maj - D Maj - E min - Fsharp dim. Again, this pattern applies to all major scales.
+
+    After you learn which chords fall within a major scale, you can really start to understand underlying chord progressions, chord tones, and how to play over various chords. So if you're playing a I-IV-V chord progression in C Major (so, C Maj - F Maj - G Maj), you now have the tools to know which degrees of the C major scale sound which way over a various chord. For example, in the above I-IV-V chord progression, you know that resolving a lick to the root over the I chord will sound good. However, you also know that the IV contains a C, so you can resolve to the root on the IV as well. The only difference is that you're now playing the fifth degree of the IV chord rather than the first degree, which gives the resolve a different flavor. Many musicians sit at this level for years, which is fine because it takes a long time to really get a good feel for it all.
+
+    After you feel comfortable with the above, I'd recommend digging into modes. This is just another trick to give your licks a certain type of flavor over underlying chords.
+
+    After that or at the same time, I'd recommend learning arpeggios and how to develop phrases around various arpeggios.
+
+    There is a lot to learn in between all of the above, and you may know a good bit of it already, but if you don't that should give you a very good place to start (at least in terms of what to google).
+
+    On top of JustinGuitar, I would also recommend Ross Campbell’s bulletproof guitar player course that came out a week or two ago. It's a bit better than Justinguitar in my opinion and it's only $12 a month. He gives great explanations of what I wrote above. I’ve been playing for a while now and I even purchased it to backfill any issues I might have.
+
+    So to sum this up (TL;DR): learn notes --> learn major scales --> learn the function of each degree of the major scale --> learn the chords of the major scale --> learn to play the major scale over chord progressions --> learn chord tones over chord progressions --> learn modes over chord progressions. This will give you a solid foundation. Then you can incorporate more exotic scales (minor, melodic minor, bop scales, etc.) and more exotic chords (7th chords, 9th chords, sus2/4, etc.).
+
+    If any of that assumed too much knowledge please let me know and I would be happy to fill in any of my assumptions.
+
+    And as a final note, just learn songs from tabs and play them with your friends. I did that for years and those were often the most informative times. They're also easier to keep doing consistently because they're the most fun (which is what guitar is all about).
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+
+*************
+Nov 21 2023 *
+12:59 PM    *
+*************
+
+
+search history setting in google chrome // no 
+
+
+
+Pending work from my side. 
+
+* need to push the code to staging to test webhooks regarding the wix etsy application. 
+* also i have made the list of git issues of the wix auction application. 
+* also when live i have code which need to live in wix auction application. related to the multiple mail send of the auction complete.
+
+
+
+Things i have to do : 
+
+* check out the wix auction git issues. 
+* check out the wix etsy things working nice. 
+
+
+Tasks: 
+
+WixEtsy: 
+check product limit.
+fix the ajax jobs. 
+see the wix auction app update task which vaibhav and gautam sir commented. 
+
+
+
+things which need to be explored: 
+
+* git submodules
+* git ci/cd pipelines. 
+* Node
+ - Async/ await 
+ - Promise
+ - Express
+ - Node
+ - How to create api in node using vanilla server
+* shell script basics. 
+* payment gateway explore. 
+
+Git CI/CD pipelines :
+ 
+concepts to study: 
+- variables *
+- recursive strateggy *
+- tags *
+- script *
+- 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
