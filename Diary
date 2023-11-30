@@ -2213,6 +2213,34 @@ git commands and ci/cd host with see the webpage with aws.
 also comment on the git issues wix auction
 
 
+Nov 29 10 : 47 AM
+-----------------
+
+
+Remaining Things:
+ 
+top priority today. . . . 
+
+* Paypal. 
+* Sap. 
+* add videos on the wix auction issues. 
+
+tasks: 
+explore wix etsy second point. 
+
+explain flow for demo. 
+
+git commands. 
+-- 
+
+ci/cd
+--
+
+
+Exploring the paypal. 
+
+-  
+-
 
 
 
@@ -2229,6 +2257,48 @@ also comment on the git issues wix auction
 
 
 
+Explore the comment. 
+
+Let us say a client has already using Etsy a/c and Wix store for the past 2-3 years and has all the products on both platforms. Now, after the installation of the connector client wants to just update the products on the Etsy end only. Now the question is if we start the syncing after the configuration of the connector would it update the already existing product or create a duplicate product on Etsy's end?
+If it creates a duplicate product then we have to find an alternative solution for that, because it should update the already existing product.
+Please look into t
+
+
+
+308 S 11TH ST APT 101 LAS VEGAS NV 89101-5594 USA
+
+
+Certainly! SAP Business One (SAP B1) is an enterprise resource planning (ERP) software designed specifically for small and medium-sized enterprises (SMEs). Here are some key basics of SAP B1:
+
+1. **Modules:** SAP B1 consists of various modules that cover different aspects of business operations. These modules include:
+   - **Financial Management:** Handles accounting, banking, financial reporting, and budgeting.
+   - **Sales and Customer Relationship Management (CRM):** Manages the sales process, customer data, quotations, orders, and sales analysis.
+   - **Purchasing and Supplier Relationship Management (SRM):** Deals with procurement, purchase orders, vendor management, and procurement analysis.
+   - **Inventory and Warehouse Management:** Tracks inventory levels, manages stock movements, handles item pricing, and inventory valuation.
+   - **Production Management:** Covers production processes, bills of materials, routing, and resource allocation.
+   - **Service Management:** Manages service calls, service contracts, warranty, and after-sales service.
+
+2. **Integration:** SAP B1 integrates various business functions to streamline processes and improve efficiency. It provides a unified platform where data from different departments can be consolidated and analyzed.
+
+3. **Customization:** SAP B1 allows customization to meet specific business needs. Users can modify forms, reports, workflows, and add-ons to adapt the software to their unique requirements.
+
+4. **Reporting and Analytics:** The software offers robust reporting tools and analytics capabilities. Users can generate customizable reports, dashboards, and key performance indicators (KPIs) for better decision-making.
+
+5. **User-Friendly Interface:** SAP B1 is known for its user-friendly interface, making it relatively easier for users to navigate through various functionalities and perform tasks efficiently.
+
+6. **Support and Community:** SAP provides support and resources for users, including documentation, training, forums, and user communities, to assist in using and troubleshooting the software.
+
+7. **Scalability:** While targeted at SMEs, SAP B1 is designed to accommodate business growth. It can handle increased transaction volumes and additional users as a company expands.
+
+8. **Security:** The software offers robust security features to protect sensitive data, ensuring that access to information is controlled and maintained securely.
+
+These basics provide an overview of SAP Business One and its capabilities in managing different aspects of business operations for small and medium-sized enterprises.
+
+
+
+30 nov 6 40 pm
+
+explore some about linux aws and port inbound , why you can't be able to run apache2 on aws ec2 instance. this weekend. 
 
 
 
