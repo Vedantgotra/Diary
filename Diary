@@ -2302,6 +2302,150 @@ explore some about linux aws and port inbound , why you can't be able to run apa
 
 
 
+Dec 1 10:10AM
+***************  
+Pending things: 
+
+1. Revision of git commands. 
+2. Revise ci/cd. 
+3. Create a new instance on aws. 
+4. ftp,ssh,http etc. 
+5. learn some basics in aws. 
+
+additionally continue your networking journey as that is so important for your future carrers.  
+
+Task: 
+
+Wix Etsy sync same product should be update not duplicate. *
+Meeting with rishabh sir - to check if etsy gives error when creating products with same skus 
+Meetting with vijay sir - created two products with same sku - it created both products with same sku with no error. 
+
+
+
+DEMO: 
+*******
+
+The Git Commands:  
+- stash * 
+- cherrypick *  puts the commit to the current checkout branch. 
+- clean * undo untracked
+- reset *
+- revert *
+-remote *
+- bisect * binary search the bug 
+- --hard --soft --mixed --force **
+- commit --amend
+
+Additional things: 
+-  index file in git
+- submodules
+- .gitmodules
+
+CI/CD Pipelines.  @ 5pm setup some more things explore about that make a new instance and install gitlab runner under that. 
+
+
+---------------------------------------------------------------------------------	-	----	--	-	-	-------------------------------------`-`--`-`--``---`----	--	-	-	-	-
+
+
+Dec 4 11:10AM
+***************  
+Pending things: 
+1. webpack
+2. knockout.js
+3. Create a new instance on aws. 
+4. ftp,ssh,http etc. 
+5. learn some basics in aws. 
+
+Tasks: 
+
+Wix Etsy sync same product should be update not duplicate. 
+Wix etsy git issue with remaning functionality improvements. * 
+also cron test staging the issues come. 
+remove the commits of git-work branch.
+
+
+Wix etsy git issues: 
+
+* there are four issues at my end. 
+
+1 - Etsy products are not getting sync at vijay sir end.  #42 check at you end fix further issues. and optimize the code also. [getting at my side but need to confirm].
+2 - Some improvements related to product list.  #43
+3 - some issues plan expired #45
+4 - displays the wrong timings. inproduct list #46
+
+
+Dec 5 11:31 AM
+
+Pending things: 
+***************
+1. webpack -  bnaya hai par thoda hi smajh aaya hai 
+2. knockout.js
+3. Create a new instance on aws. 
+4. ftp,ssh,http etc. 
+5. learn some basics in aws. 
+6. merge stratigies. 
+
+Wix etsy git issues:  - commented on the task.  need to add one comment more of fixed the issue. 
+*******************
+There are four issues at my end. 
+
+1 - Etsy products are not getting sync at vijay sir end.  #42 check at you end fix further issues. and optimize the code also. [getting at my side but need to confirm].
+2 - Some improvements related to product list.  #43
+3 - some issues plan expired #45
+4 - displays the wrong timings. inproduct list #46
+
+Tasks: 
+******
+Wix Etsy sync same product should be update not duplicate. 
+Wix etsy git issue with remaning functionality improvements. 
+ChatGPT plan not assigned **
+i have to search for the table with plan code. ** pushed to live
+plan assign application wise. 
+
+i have installed chatgpt on local and free plan is assinged as per other application, also the plan is assigned to the application is installed even if the plan is disabled for the applcation. 
+
+ON LIVE:
+*********
+client id : tb5g6al1fq67lmwtr9shi8jsfvy3tcr
+client pass : b8ad51d6ea96244ae3376031c17f3f91169a273ddd92e51081413c05fe14a040
+
+some links related to the git. :
+https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
+https://javascript.plainenglish.io/git-merging-strategies-a-simple-explanation-and-guide-9e7e508b369c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
