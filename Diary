@@ -2413,12 +2413,88 @@ some links related to the git. :
 https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
 https://javascript.plainenglish.io/git-merging-strategies-a-simple-explanation-and-guide-9e7e508b369c
 
+Dec 6 11:31 AM 
+
+
+ticket : 
+
+after 10000 wix returns api return as this: 
+
+{
+    "message": "Illegal query offset and limit values. Offset + limit must be less than or equal to 10000. Requested offset: 10010, requested limit: 10",
+    "details": {
+        "validationError": {
+            "fieldViolations": [
+                {
+                    "field": "Paging",
+                    "description": "Illegal query offset and limit values. Offset + limit must be less than or equal to 10000. Requested offset: 10010, requested limit: 10",
+                    "violatedRule": "OTHER",
+                    "ruleName": "IllegalQueryOffsetAndLimitSum"
+                }
+            ]
+        }
+    }
+}
+
+
+Pending things: 
+***************
+1. webpack -  bnaya hai par thoda hi smajh aaya hai 
+2. knockout.js
+3. Create a new instance on aws. 
+4. ftp,ssh,http etc. 
+5. learn some basics in aws. 
+6. merge stratigies. 
+
+
+
+wix etsy functionality: 
+
+need to implement some things: 
+* variants manage
+* cron things manage
+* etsy git issue. 
+
+
+
+offset 0 limit: 10
+numeric id:  1701727017027000
+
+        "filter": "{\"numericId\": { \"$gt\": 1699302349696771 }}"
 
 
 
 
+1701119920988381
 
 
+1701119920988425
+
+the timetable is reshduled : 
+
+to adjust hours in the evening : 
+
+task needed to adjust in the weekend or friday: 
+linear algebra 1hr
+guitar cover : 1hr 
+
+
+also in the morning get office by 8 am. tommorow
+leave 7.45 from home in the morning. 
+gym at 5.30 
+take diet mixture from -1 
+wake up at 5.15
+
+also pending things: 
+stock split concept, face value, marketvalue, share place, also some things at my end. from video need to understand these topics in briefly
+also some pending things left above need to cover those in the weekend. time ka to pata bhi nhi chalega
+aur weekend me ek mattress, ek desk and chair. first from the old furniture shop. 
+
+
+****************
+ticket reply
+comment to task
+*****************
 
 
 
