@@ -2496,6 +2496,126 @@ ticket reply
 comment to task
 *****************
 
+07th December 2023
+10.45 am
+Dear Diary,
+
+Today i have to do ticket task. and wix etsy task if time remains.
+
+* ask dad for when to reach hospital. 
+
+ticket task.:
+
+by checking that the numeric id asc is the ascending order of creating date.  
+
+old params: 
+*************
+$apiParams = [
+                'query' => [
+                    'paging' => [
+                        'limit' => $params['limit'],
+                        // 'offset' => ($params['page'] - 1) * $params['limit'],
+                    ],
+                    // "sort" => "[{\"createdDate\": \"asc\"}]"
+                ],
+                'includeHiddenProducts' => true
+            ];
+
+
+
+
+
+
+
+things: 
+read what is escaping of json string why and what. 
+
+
+
+********************
+11th December 2023
+10.05 am
+Dear Diary,
+************
+I haven't learn any thing in the previous weekend, actually i understand now that i can work in HOME i have time at sunday but skip that.
+
+For now i am gonna busy my weekdays, i'm gonna fullfill the empty time with my pending tasks. 
+
+My pending task are: 
+1. webpack -  bnaya hai par thoda hi smajh aaya hai 
+2. knockout.js
+3. Create a new instance on aws. 
+4. ftp,ssh,http etc. 
+5. learn some basics in aws. 
+6. merge stratigies. 
+7. wix velo resubmit. 
+8. find a gym and a gym partner. 
+
+also i have to work on my physique, by changing the gym. i will find a gym partner or friend.
+
+ now lets talk about my future studies. 
+ 
+i have to complete the linear algebra till this month with some basic knowledge of python syntax.
+
+starting with competive programing. 
+
+funny hotspot names :
+wecanseeyoushowering
+
+
+the total products sync of the client are 16000 somehing we need to sync all the products of the client. 
+
+company tasks: 
+
+* wix auction ticket
+* etsy variants functoinality & git issues. with test on cron. 
+
+
+9705
+
+
+********************
+11th December 2023
+10.05 am
+*********
+
+Dear Diary,
+
+My pending task are: 
+1. webpack -  bnaya hai par thoda hi smajh aaya hai 
+2. knockout.js
+3. Create a new instance on aws. 
+4. ftp,ssh,http etc. 
+5. learn some basics in aws. 
+6. merge stratigies. 
+7. wix velo resubmit. 
+8. forum wix, discord, also need to stick to the wix platform. 
+9. read changelogs
+10.  you have to study rabbit mq in depth.  by setuping at local. 
+
+actually no partner needed its inside you. 
+
+
+related to task: 
+wix etsy.  deadline today
+customization meeting 2.30pm
+also ticket is completed need to push the code related to the ticket. 
+log note in task training and meeting about remaining topics. 
+task comment on wix mp inventory update. 
+discuss with rishabh sir about party. 23rd
+checkout some features of the guitar amp. 
+
+Team, please check out the latest master from the Wix auction submodule, as I have made some changes.
+
+
+
+Now you are full motivated it is ok to feel about a girl but you need to balance other things with this. 
+
+today i have read that success is only for you, so you need to balance it. 
+
+go with env.  or change the env. 
+
+start making reels by setup it. 
 
 
 
@@ -2504,17 +2624,88 @@ comment to task
 
 
 
+{"product":{"name":"Linen Fern Grey, Upholstery, Soft Furnishings, Cushions, Fabric","priceData":{"price":3.99},"productOptions":[{"name":"Size","choices":[{"value":"Sample","description":"Sample"},{"value":"0.5m","description":"0.5m"},{"value":"1m","description":"1m"}]}],"productType":"physical","description":"Our Abstract Upholstery Fabric is the perfect addition to any interior designer&#39;s collection. Made with high-quality materials, this soft furnishings fabric is perfect for creating beautiful cushions and other decorative accents. The unique abstract print is sure to add a touch of sophistication to any room, while the durable construction ensures that your creations will last for years to come. So whether you&#39;re a professional interiors designer or just looking to add some style to your home, this fabric is the perfect choice. &nbsp; &nbsp; Horizontal Pattern Repeat: 30cm Vertical Pattern Repeat: 30cm Composition:&nbsp;100% Polyester Width (cm):&nbsp;137cm Suitable End Use:&nbsp;Curtains &amp; General Domestic Upholstery Martindale Rub Test: 45,000 Cleaning Instructions:&nbsp;Dry Clean Only","weight":1}}
+
+
+variantsid variantki table alag bnii chaiye ya nhi
+
+added comment on git issue 42 and 46 ** commented. 
+
+
+********************
+14th December 2023
+11.35 am
+*********
+ 
+* We need to only sync those customers in the app who ordered for seller's product.
+
+this weekend.. 
+ultrasound, test., clothes, and much more. 
+
+
+entity ready. 
+logic for getting sync customer of all the orders.  **
+
+delete all unessacary templog files. 
+
+
+
+EbènePassione7ed
+catogoeyid black sheep
+
+order sync from customer menu (mannuall) 
+order sync from orders menu (mannual)
+order sync from webhook  (auto)
 
 
 
 
+explore the parent product and etc concept in pam. 
+what happens if adminer.php will be publically available on server. 
+
+
+********************
+15th December 2023
+12.44 pm
+*********
+
+things which are pending: 
+1. webpack -  bnaya hai par thoda hi smajh aaya hai 
+2. knockout.js
+3. Create a new instance on aws. 
+4. ftp,ssh,http etc. 
+5. learn some basics in aws. 
+6. merge stratigies. 
+7. wix velo resubmit. 
+8. forum wix, discord, also need to stick to the wix platform. 
+9. read changelogs
+10.  you have to study rabbit mq in depth.  by setuping at local. 
+11. checkout some features of the guitar amp. 
+https://stackoverflow.com/questions/948354/default-behavior-of-git-push-without-a-branch-specified
+this weekend..:
+ultrasound, test., clothes, and much more. 
+
+related to task: 
+order sync from customer menu (mannuall) **
+order sync from orders menu (mannual) **
+order sync from webhook  (auto) **
+
+need to add isset and test cases and also exceptions.  **
+make some orders with seller and without sellers.  
+add fileter in the customer manage page. *
+
+
+after that checkout your work on wixetsy task which you have done before. 
 
 
 
+bhai bigacommerce me webhook kaha 
+
+sun 
 
 
 
-
+sun sirf 15 min hai aaj mai 7.30 tak nikal jaunga
 
 
 
