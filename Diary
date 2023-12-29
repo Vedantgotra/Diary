@@ -2732,11 +2732,11 @@ TODO:
 3. Create a new instance on aws. 
 4. ftp,ssh,http etc. 
 5. learn some basics in aws. 
-6. merge stratigies. 
+6. merge stratigies. **
 7. wix velo resubmit. 
 8. forum wix, discord, also need to stick to the wix platform. 
 9. read changelogs
-10.  you have to study rabbit mq in depth.  by setuping at local. 
+10. you have to study rabbit mq in depth.  by setuping at local. 
 11. checkout some features of the guitar amp. 
 https://stackoverflow.com/questions/948354/default-behavior-of-git-push-without-a-branch-specified
 https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
@@ -2748,6 +2748,219 @@ buy clothes.
 
 learning merge stratiegies. 
 
+Resolve Merge [need to understand it properly]
+Subtree Strategy. 
+
+
+
+when you want to explore the t
+
+need to check the x-api-key
+
+
+
+********************
+20th December 2023
+10.05 am
+*********
+Dear Diary, 
+
+
+TODO: 
+
+1. webpack -  bnaya hai par thoda hi smajh aaya hai 
+2. knockout.js
+3. Create a new instance on aws. 
+4. ftp,ssh,http etc. 
+5. learn some basics in aws. 
+6. merge stratigies. **
+7. wix velo resubmit. 
+8. forum wix, discord, also need to stick to the wix platform. 
+9. read changelogs
+10. you have to study rabbit mq in depth.  by setuping at local. 
+11. checkout some features of the guitar amp. 
+https://stackoverflow.com/questions/948354/default-behavior-of-git-push-without-a-branch-specified
+https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+
+
+the pending things stucks at my end:. 
+ticket 2 pos and ...
+wix etsy testing
+bigcommerce marketplace customization live
+wix mp variants feature. 
+
+
+I am pleased to inform you that the customization feature is currently live and fully functional. Any new order synchronization will automatically include the associated customer synchronization. We kindly request your confirmation of these details with the client for verification purposes.
+
+
+Hi there,
+
+We are actively looking into it and will reply to you very soon.
+
+Best Regards,
+Webkul
+
+
+the pos issue is occuring due to the logic problem in terminal controller in which code is writen as if db has products so it will not go for bigcommerce. 
+
+
+* create entity regarding the product options and variants
+* get products in them 
+* create that.
+
+
+********************
+21th December 2023
+08.36 pm
+*********
+Dear Diary, 
+
+TODO: 
+
+1. webpack -  bnaya hai par thoda hi smajh aaya hai 
+2. knockout.js
+3. Create a new instance on aws. 
+4. ftp,ssh,http etc. 
+5. learn some basics in aws. 
+6. merge stratigies. **
+7. wix velo resubmit. 
+8. forum wix, discord, also need to stick to the wix platform. 
+9. read changelogs
+10. you have to study rabbit mq in depth.  by setuping at local. 
+11. checkout some features of the guitar amp. 
+https://stackoverflow.com/questions/948354/default-behavior-of-git-push-without-a-branch-specified
+https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+https://henriquesd.medium.com/dry-kiss-yagni-principles-1ce09d9c601f
+.gitkeep
+
+
+
+
+the pending things stucks at my end:. 
+ticket 2 pos and ... iska rasta mil gaya hai . 
+wix etsy testing ** hogyi hai suchit karna hai 
+bigcommerce marketplace customization live hogyi hai . 
+wix mp variants feature. ye kar raha hun. 
+
+
+
+
+
+
+
+********************
+26th December 2023
+08.36 pm
+*********
+Dear Diary, 
+
+things to do: 
+old + 
+i need to decrease the lunch time to 30 min. 
+also i need to decerase the evening time to 15min.  
+what are collection ids. 
+
+
+
+task :
+
+the wixmp variant feature -- deadline 27dec. 
+
+thing needed to be done in this feature: 
+-  the places need to implement this feature at - sync products manually, the edit , the create, the webhook process. 
+
+
+
+********************
+27th December 2023
+10.24 am
+*********
+Dear Diary, 
+
+things to do :
+
+old+
+middle ware
+
+tasks:
+
+wix mp feature task deadline -- today
+
+things need to do: 
+
+* first get the variants data from db to update and add product tab
+* create/update product with variant will be started.  
+
+
+vedant
+qvn17wne96vntdmr6ocqh3h5pueaube
+45a8dee2190f4cfb5cb561987aca9c4adcb5f7e4ef26d146b6c84c11025bf2bd
+
+live.. 
+tb5g6al1fq67lmwtr9shi8jsfvy3tcr
+b8ad51d6ea96244ae3376031c17f3f91169a273ddd92e51081413c05fe14a040
+
+
+
+ request.INFO: Matched route "platform_authentication_uninstall". {"route":"platform_authentication_uninstall","route_parameters":{"_route":"platform_authentication_uninstall","_controller":"App\\Controller\\Authentication\\PlatformController::uninstall","_locale":"en","platform":"bigcommerce","app_code":"bcchatgpt"},"request_uri":"https://bigcommerce.webkul.com/en/bigcommerce/authentication/uninstall/bcchatgpt?signed_payload=eyJ1c2VyIjp7ImlkIjoyNzM2MjAwLCJlbWFpbCI6InJvb21tYXRlKzE3MDMyNjY2MzFAYmlnY29tbWVyY2UuY29tIiwibG9jYWxlIjoiZW4tVVMifSwib3duZXIiOnsiaWQiOjI3MzYyMDAsImVtYWlsIjoicm9vbW1hdGUrMTcwMzI2NjYzMUBiaWdjb21tZXJjZS5jb20ifSwiY29udGV4dCI6InN0b3Jlcy9oZXp0ZXR3NGlsIiwic3RvcmVfaGFzaCI6ImhlenRldHc0aWwiLCJ0aW1lc3RhbXAiOjE3MDMyNzc3Mjd9.OWE4MjUzNjY2YWZlZTVlMmIyMjliZjI2YmVjZjU4MDViZDc4YzA0ZTVkMzViNDA1MmYzZmI1YzYzOWVjOTZiNA%3D%3D&signed_payload_jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ0YjVnNmFsMWZxNjdsbXd0cjlzaGk4anNmdnkzdGNyIiwiaXNzIjoiYmMiLCJpYXQiOjE3MDMyNzc3MjcsIm5iZiI6MTcwMzI3NzcyMiwiZXhwIjoxNzAzMzY0MTI3LCJqdGkiOiJlNjA5OTI2OC01MDBjLTRlYWItOWVjMC1lNjNjYzdmZWE4N2QiLCJzdWIiOiJzdG9yZXMvaGV6dGV0dzRpbCIsInVzZXIiOnsiaWQiOjI3MzYyMDAsImVtYWlsIjoicm9vbW1hdGUrMTcwMzI2NjYzMUBiaWdjb21tZXJjZS5jb20iLCJsb2NhbGUiOiJlbi1VUyJ9LCJvd25lciI6eyJpZCI6MjczNjIwMCwiZW1haWwiOiJyb29tbWF0ZSsxNzAzMjY2NjMxQGJpZ2NvbW1lcmNlLmNvbSJ9LCJ1cmwiOiIvIiwiY2hhbm5lbF9pZCI6bnVsbH0.RMVQ4sRkUydLagSHNDi_rCXV-oKtInOFrwwmZ6iiDCo","method":"GET"} []
+[2023-12-22 20:42:07] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2023-12-22 20:42:07] php.CRITICAL: Uncaught Error: Call to a member function setAccessToken() on bool {"exception":"[object] (Error(code: 0): Call to a member function setAccessToken() on bool at /home/bigcommerce/releases/Bigcommerce_Application_Manager/20231222075913/src/EventSubscriber/CompanyApplicationSubscriber.php:126)"} []
+[2023-12-22 20:42:07] php.INFO: User Deprecated: The "Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent::getException()" method is deprecated since Symfony 4.4, use "getThrowable()" instead. {"exception":"[object] (ErrorException(code: 0): User Deprecated: The \"Symfony\\Component\\HttpKernel\\Event\\GetResponseForExceptionEvent::getException()\" method is deprecated since Symfony 4.4, use \"getThrowable()\" instead. at /home/bigcommerce/releases/Bigcommerce_Application_Manager/20231222075913/vendor/symfony/http-kernel/Event/GetResponseForExceptionEvent.php:57)"} []
+[2023-12-22 20:42:07] php.INFO: User Deprecated: The "Symfony\Component\Debug\Exception\FatalThrowableError" class is deprecated since Symfony 4.4. {"exception":"[object] (ErrorException(code: 0): User Deprecated: The \"Symfony\\Component\\Debug\\Exception\\FatalThrowableError\" class is deprecated since Symfony 4.4. at /home/bigcommerce/releases/Bigcommerce_Application_Manager/20231222075913/vendor/symfony/debug/Exception/FatalThrowableError.php:14)"} []
+[2023-12-22 20:42:07] php.INFO: User Deprecated: The "Symfony\Component\Debug\Exception\FatalErrorException" class is deprecated since Symfony 4.4, use "Symfony\Component\ErrorHandler\Error\FatalError" instead. {"exception":"[object] (ErrorException(code: 0): User Deprecated: The \"Symfony\\Component\\Debug\\Exception\\FatalErrorException\" class is deprecated since Symfony 4.4, use \"Symfony\\Component\\ErrorHandler\\Error\\FatalError\" instead. at /home/bigcommerce/releases/Bigcommerce_Application_Manager/20231222075913/vendor/symfony/debug/Exception/FatalErrorException.php:14)"} []
+
+
+from 8pm do the data science. 
+
+
+as i have see may be the problem is related to the client id and secret unknown.
+
+beacuse there is the guzzle http log which is not made at production enviroment.  
+
+
+********************
+28th December 2023
+10.40 am
+*********
+Dear Diary, 
+
+things pending at my end: 
+old +. 
+rabbit mq must important. 
+loan of 72 thousand from axis.  nahi to 32 ka loan.
+gym 600 rupees to gym bhaiya. 
+blanket outside.
+room clean. 
+dad 239+212+40+.
+before going kotdwar land the bike to royal enfield garage. 
+
+*************************************************************
+i have added the store information scope and app running. 
+
+comparing with bigcommerce auction the remaining scopes are.:
+carts X
+channel X
+site content
+customer information
+customer login
+marketing X
+order X
+order transactions X
+
+
+lunch tasks: 
+lunch, courier and axis bank loan status. 
+
+
+*****************************************
+
+related to tasks: 
+wix mp variants feature task. 
+* list the variants and options
+* create a product variants
+* update a product variants
+* also make this happen to platform also. 
+then add the webhook flow. 
 
 
 
